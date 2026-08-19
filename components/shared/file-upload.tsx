@@ -3,7 +3,7 @@
 import { useCallback, useRef, useState } from "react";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { UploadCloud, FileText, X } from "lucide-react";
-import { firebaseStorage } from "@/lib/firebase";
+import { getFirebaseStorage } from "@/lib/firebase";
 import { cn } from "@/lib/utils";
 
 export interface UploadedFile {
@@ -64,7 +64,7 @@ export function FileUpload({
       if (remaining === 0) return;
 
       accepted.forEach((file) => {
-        const storageRef = ref(firebaseStorage, `${storagePath}/${Date.now()}-${file.name}`);
+        const storageRef = ref(getFirebaseStorage(), `${storagePath}/${Date.now()}-${file.name}`);
         const task = uploadBytesResumable(storageRef, file);
 
         task.on(
