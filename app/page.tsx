@@ -183,7 +183,7 @@ export default async function Home() {
           </Link>
         </div>
         {products.length > 0 && (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <Link href={`/product/${product.slug}`} className="absolute inset-0 z-0" aria-label={product.name} />

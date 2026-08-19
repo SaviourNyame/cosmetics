@@ -191,7 +191,7 @@ export default async function ShopPage({
                 : "No products available yet. Check back soon."}
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8">
               {products.map((product) => (
                 <div key={product.id} className="crystal-card reflection-sweep rounded-xl p-6 flex flex-col group relative">
                   <Link href={`/product/${product.slug}`} className="absolute inset-0 z-0" aria-label={product.name} />
