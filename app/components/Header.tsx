@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 
 const NAV_LINKS = [
@@ -18,9 +18,16 @@ export default function Header({
 }: {
   active: "/" | "/shop" | "/product" | "/request";
 }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    setMenuOpen(false);
+  }, [pathname]);
+
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white/60 backdrop-blur-[30px] border-b border-white/30 shadow-[0_20px_50px_rgba(0,0,0,0.04)] h-20">
-      <div className="flex justify-between items-center h-full px-5 lg:px-20 max-w-[1440px] mx-auto">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white/60 backdrop-blur-[30px] border-b border-white/30 shadow-[0_20px_50px_rgba(0,0,0,0.04)]">
+      <div className="flex justify-between items-center h-20 px-5 lg:px-20 max-w-[1440px] mx-auto">
         <div className="flex items-center gap-12">
           <Link href="/" className="flex items-center gap-3">
             <Image
@@ -35,7 +42,7 @@ export default function Header({
               Lumière
             </span>
           </Link>
-          <nav className="hidden md:flex gap-8">
+          <nav className="hidden lg:flex gap-8">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
@@ -51,19 +58,48 @@ export default function Header({
             ))}
           </nav>
         </div>
-        <div className="flex items-center gap-6">
-          <HeaderSearch />
+        <div className="flex items-center gap-4 sm:gap-6">
+          <HeaderSearch className="hidden lg:flex" />
           <CartLink />
-          <button className="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">
+          <button className="hidden sm:inline-flex material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">
             account_circle
+          </button>
+          <button
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            className="lg:hidden material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors"
+          >
+            {menuOpen ? "close" : "menu"}
           </button>
         </div>
       </div>
+
+      {menuOpen && (
+        <div className="lg:hidden border-t border-white/30 bg-white/90 backdrop-blur-xl px-5 py-6 flex flex-col gap-6">
+          <HeaderSearch className="flex" />
+          <nav className="flex flex-col gap-5">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={
+                  active === link.href
+                    ? "font-semibold text-sm tracking-[0.1em] uppercase text-primary"
+                    : "font-semibold text-sm tracking-[0.1em] uppercase text-on-surface-variant"
+                }
+              >
+                {link.label}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
     </header>
   );
 }
 
-function HeaderSearch() {
+function HeaderSearch({ className = "" }: { className?: string }) {
   const router = useRouter();
   const [value, setValue] = useState("");
 
@@ -85,7 +121,7 @@ function HeaderSearch() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="hidden lg:flex items-center glass-effect-deep rounded-full px-4 py-2 border border-white/30"
+      className={`${className} items-center glass-effect-deep rounded-full px-4 py-2 border border-white/30 w-full lg:w-auto`}
     >
       <button type="submit" aria-label="Search" className="material-symbols-outlined text-secondary text-[20px]">
         search
@@ -93,7 +129,7 @@ function HeaderSearch() {
       <input
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        className="bg-transparent border-none focus:ring-0 text-sm w-48 placeholder:text-on-surface-variant"
+        className="bg-transparent border-none focus:ring-0 text-sm w-full lg:w-48 placeholder:text-on-surface-variant"
         placeholder="Search products..."
         type="text"
       />

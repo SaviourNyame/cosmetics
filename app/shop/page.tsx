@@ -66,88 +66,112 @@ export default async function ShopPage({
   };
   const allCategoriesTotal = categories.reduce((sum, c) => sum + c.productCount, 0);
   const allBrandsTotal = brands.reduce((sum, b) => sum + b.productCount, 0);
+  const activeFilterCount = [categoryId, brandId, params.maxPrice, query].filter(Boolean).length;
+
+  const filtersContent = (
+    <div className="space-y-10">
+      <div>
+        <h3 className="text-xs font-semibold tracking-[0.1em] text-on-surface-variant mb-6 uppercase">
+          Category
+        </h3>
+        <div className="space-y-3">
+          <Link
+            href={pageHref({ ...baseParams, category: undefined }, 1)}
+            className={
+              !categoryId
+                ? "flex justify-between text-primary font-semibold"
+                : "flex justify-between text-on-surface hover:text-primary transition-colors"
+            }
+          >
+            <span>All Products</span>
+            <span className="text-on-surface-variant">{allCategoriesTotal}</span>
+          </Link>
+          {categories.map((cat) => (
+            <Link
+              key={cat.id}
+              href={pageHref({ ...baseParams, category: cat.id }, 1)}
+              className={
+                categoryId === cat.id
+                  ? "flex justify-between text-primary font-semibold"
+                  : "flex justify-between text-on-surface hover:text-primary transition-colors"
+              }
+            >
+              <span>{cat.name}</span>
+              <span className="text-on-surface-variant">{cat.productCount}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h3 className="text-xs font-semibold tracking-[0.1em] text-on-surface-variant mb-6 uppercase">Brand</h3>
+        <div className="space-y-3">
+          <Link
+            href={pageHref({ ...baseParams, brand: undefined }, 1)}
+            className={
+              !brandId
+                ? "flex justify-between text-primary font-semibold"
+                : "flex justify-between text-on-surface hover:text-primary transition-colors"
+            }
+          >
+            <span>All Brands</span>
+            <span className="text-on-surface-variant">{allBrandsTotal}</span>
+          </Link>
+          {brands.map((brand) => (
+            <Link
+              key={brand.id}
+              href={pageHref({ ...baseParams, brand: brand.id }, 1)}
+              className={
+                brandId === brand.id
+                  ? "flex justify-between text-primary font-semibold"
+                  : "flex justify-between text-on-surface hover:text-primary transition-colors"
+              }
+            >
+              <span>{brand.name}</span>
+              <span className="text-on-surface-variant">{brand.productCount}</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      <PriceRangeFilter maxPrice={maxPrice ?? 350} />
+    </div>
+  );
 
   return (
     <>
       <Header active="/shop" />
       <main className="pt-20 min-h-screen flex max-w-[1440px] mx-auto">
-        {/* Sidebar filters */}
+        {/* Sidebar filters (desktop) */}
         <aside className="hidden lg:block w-80 shrink-0 h-[calc(100vh-80px)] sticky top-20 p-8 glass-panel overflow-y-auto">
-          <div className="space-y-10">
-            <div>
-              <h3 className="text-xs font-semibold tracking-[0.1em] text-on-surface-variant mb-6 uppercase">
-                Category
-              </h3>
-              <div className="space-y-3">
-                <Link
-                  href={pageHref({ ...baseParams, category: undefined }, 1)}
-                  className={
-                    !categoryId
-                      ? "flex justify-between text-primary font-semibold"
-                      : "flex justify-between text-on-surface hover:text-primary transition-colors"
-                  }
-                >
-                  <span>All Products</span>
-                  <span className="text-on-surface-variant">{allCategoriesTotal}</span>
-                </Link>
-                {categories.map((cat) => (
-                  <Link
-                    key={cat.id}
-                    href={pageHref({ ...baseParams, category: cat.id }, 1)}
-                    className={
-                      categoryId === cat.id
-                        ? "flex justify-between text-primary font-semibold"
-                        : "flex justify-between text-on-surface hover:text-primary transition-colors"
-                    }
-                  >
-                    <span>{cat.name}</span>
-                    <span className="text-on-surface-variant">{cat.productCount}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-xs font-semibold tracking-[0.1em] text-on-surface-variant mb-6 uppercase">Brand</h3>
-              <div className="space-y-3">
-                <Link
-                  href={pageHref({ ...baseParams, brand: undefined }, 1)}
-                  className={
-                    !brandId
-                      ? "flex justify-between text-primary font-semibold"
-                      : "flex justify-between text-on-surface hover:text-primary transition-colors"
-                  }
-                >
-                  <span>All Brands</span>
-                  <span className="text-on-surface-variant">{allBrandsTotal}</span>
-                </Link>
-                {brands.map((brand) => (
-                  <Link
-                    key={brand.id}
-                    href={pageHref({ ...baseParams, brand: brand.id }, 1)}
-                    className={
-                      brandId === brand.id
-                        ? "flex justify-between text-primary font-semibold"
-                        : "flex justify-between text-on-surface hover:text-primary transition-colors"
-                    }
-                  >
-                    <span>{brand.name}</span>
-                    <span className="text-on-surface-variant">{brand.productCount}</span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-
-            <PriceRangeFilter maxPrice={maxPrice ?? 350} />
-          </div>
+          {filtersContent}
         </aside>
 
         {/* Product grid */}
-        <section className="flex-1 min-w-0 p-8 lg:p-12">
-          <div className="sticky top-[84px] z-40 mb-12 flex flex-col md:flex-row justify-between items-center gap-6 glass-panel rounded-xl p-6">
-            <div>
-              <h1 className="font-display text-[32px] italic">Curation / Essentials</h1>
-              <p className="text-on-surface-variant">
+        <section className="flex-1 min-w-0 p-4 sm:p-8 lg:p-12">
+          {/* Mobile filters accordion */}
+          <details className="lg:hidden mb-6 glass-panel rounded-xl overflow-hidden group">
+            <summary className="list-none flex items-center justify-between cursor-pointer px-6 py-4">
+              <span className="flex items-center gap-2 font-semibold text-sm">
+                <span className="material-symbols-outlined text-[20px]">tune</span>
+                Filters
+                {activeFilterCount > 0 && (
+                  <span className="bg-primary text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                    {activeFilterCount}
+                  </span>
+                )}
+              </span>
+              <span className="material-symbols-outlined transition-transform group-open:rotate-180">
+                expand_more
+              </span>
+            </summary>
+            <div className="px-6 pb-6 pt-2 border-t border-outline-variant/30">{filtersContent}</div>
+          </details>
+
+          <div className="lg:sticky lg:top-[84px] lg:z-40 mb-8 lg:mb-12 flex flex-col md:flex-row justify-between items-center gap-6 glass-panel rounded-xl p-4 sm:p-6">
+            <div className="w-full md:w-auto">
+              <h1 className="font-display text-[24px] sm:text-[32px] italic">Curation / Essentials</h1>
+              <p className="text-on-surface-variant text-sm sm:text-base">
                 Showing {products.length} of {allProducts.length} premium selections
               </p>
             </div>
@@ -218,20 +242,23 @@ export default async function ShopPage({
           )}
 
           {totalPages > 1 && (
-            <div className="mt-20 flex justify-center items-center gap-4">
+            <div className="mt-12 sm:mt-20 flex justify-start sm:justify-center items-center gap-2 sm:gap-4 overflow-x-auto pb-2 px-1">
               <Link
                 href={pageHref(baseParams, Math.max(1, page - 1))}
                 aria-disabled={page === 1}
-                className={`w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-variant transition-colors ${
+                className={`w-9 h-9 sm:w-12 sm:h-12 shrink-0 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-variant transition-colors ${
                   page === 1 ? "pointer-events-none opacity-40" : ""
                 }`}
               >
-                <span className="material-symbols-outlined">chevron_left</span>
+                <span className="material-symbols-outlined text-[18px] sm:text-[24px]">chevron_left</span>
               </Link>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
                 {paginationItems(page, totalPages).map((item, idx) =>
                   item === "ellipsis" ? (
-                    <span key={`ellipsis-${idx}`} className="w-10 h-10 flex items-center justify-center text-on-surface-variant">
+                    <span
+                      key={`ellipsis-${idx}`}
+                      className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center text-on-surface-variant"
+                    >
                       ...
                     </span>
                   ) : (
@@ -240,8 +267,8 @@ export default async function ShopPage({
                       href={pageHref(baseParams, item)}
                       className={
                         item === page
-                          ? "w-10 h-10 rounded-full bg-primary text-white font-bold flex items-center justify-center"
-                          : "w-10 h-10 rounded-full hover:bg-surface-variant transition-colors flex items-center justify-center"
+                          ? "w-8 h-8 sm:w-10 sm:h-10 shrink-0 rounded-full bg-primary text-white text-sm sm:text-base font-bold flex items-center justify-center"
+                          : "w-8 h-8 sm:w-10 sm:h-10 shrink-0 rounded-full hover:bg-surface-variant transition-colors text-sm sm:text-base flex items-center justify-center"
                       }
                     >
                       {item}
@@ -252,11 +279,11 @@ export default async function ShopPage({
               <Link
                 href={pageHref(baseParams, Math.min(totalPages, page + 1))}
                 aria-disabled={page === totalPages}
-                className={`w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-variant transition-colors ${
+                className={`w-9 h-9 sm:w-12 sm:h-12 shrink-0 rounded-full border border-outline-variant flex items-center justify-center hover:bg-surface-variant transition-colors ${
                   page === totalPages ? "pointer-events-none opacity-40" : ""
                 }`}
               >
-                <span className="material-symbols-outlined">chevron_right</span>
+                <span className="material-symbols-outlined text-[18px] sm:text-[24px]">chevron_right</span>
               </Link>
             </div>
           )}
