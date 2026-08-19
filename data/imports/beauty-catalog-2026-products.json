@@ -1,0 +1,5454 @@
+[
+  {
+    "id": "bodidoc-tissue-oil-cream-urea-500ml",
+    "name": "Bodidoc Tissue Oil Cream-Urea (500ml)",
+    "slug": "bodidoc-tissue-oil-cream-urea-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "bodidoc",
+      "cream",
+      "oil",
+      "tissue",
+      "urea"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+      "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+      "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+      "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+      "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 2
+    }
+  },
+  {
+    "id": "bodidoc-tissue-oil-cream-500ml",
+    "name": "Bodidoc Tissue Oil Cream (500ml)",
+    "slug": "bodidoc-tissue-oil-cream-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "bodidoc",
+      "cream",
+      "oil",
+      "tissue"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+      "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+      "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+      "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+      "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 2
+    }
+  },
+  {
+    "id": "bodidoc-tissue-oil-200ml",
+    "name": "Bodidoc Tissue Oil (200ml)",
+    "slug": "bodidoc-tissue-oil-200ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "200ml",
+      "bodidoc",
+      "oil",
+      "tissue"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+      "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+      "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+      "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+      "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 2
+    }
+  },
+  {
+    "id": "bodidoc-tissue-oil-lotion-urea-450ml",
+    "name": "Bodidoc Tissue Oil Lotion-Urea (450ml)",
+    "slug": "bodidoc-tissue-oil-lotion-urea-450ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "450ml",
+      "bodidoc",
+      "lotion",
+      "oil",
+      "tissue",
+      "urea"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+      "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+      "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+      "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+      "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 2
+    }
+  },
+  {
+    "id": "bodidoc-tissue-oil-lotion-450ml",
+    "name": "Bodidoc Tissue Oil Lotion (450ml)",
+    "slug": "bodidoc-tissue-oil-lotion-450ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "450ml",
+      "bodidoc",
+      "lotion",
+      "oil",
+      "tissue"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-02-6cdb2553951d.jpeg",
+      "/catalog-imports/beauty-2026/page-02-a6d78c5ea7dd.jpeg",
+      "/catalog-imports/beauty-2026/page-02-f04e3c4848b8.jpeg",
+      "/catalog-imports/beauty-2026/page-02-5e05b510e95c.jpeg",
+      "/catalog-imports/beauty-2026/page-02-b12dd4c3fa14.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 2
+    }
+  },
+  {
+    "id": "bump-patrol-65ml",
+    "name": "Bump Patrol (65ml)",
+    "slug": "bump-patrol-65ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "65ml",
+      "bump",
+      "patrol"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-03-a63260af2665.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-03-a63260af2665.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 3
+    }
+  },
+  {
+    "id": "baby-p-jelly-500ml",
+    "name": "Baby P-jelly ( 500ml)",
+    "slug": "baby-p-jelly-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "baby",
+      "jelly"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-04-1cf8968050c8.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-04-1cf8968050c8.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 4
+    }
+  },
+  {
+    "id": "beverly-hill-roll-on-50ml",
+    "name": "Beverly Hill Roll on (50ml)",
+    "slug": "beverly-hill-roll-on-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "beverly",
+      "hill",
+      "roll"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-05-1b25b5159853.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-05-1b25b5159853.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 5
+    }
+  },
+  {
+    "id": "chemico-1-shot-sachet-for-drain-100g-chemico-drain-clean",
+    "name": "Chemico 1 shot sachet for drain (100g) Chemico Drain Clean",
+    "slug": "chemico-1-shot-sachet-for-drain-100g-chemico-drain-clean",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100g",
+      "chemico",
+      "clean",
+      "drain",
+      "for",
+      "sachet",
+      "shot"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-06-c6bd74ac86e2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-06-c6bd74ac86e2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 6
+    }
+  },
+  {
+    "id": "cocoa-buttercream-500ml",
+    "name": "Cocoa ButterCream (500ml)",
+    "slug": "cocoa-buttercream-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "buttercream",
+      "cocoa"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+      "/catalog-imports/beauty-2026/page-07-28cd3506dfaa.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 7
+    }
+  },
+  {
+    "id": "vanilla-honey-cream-500ml",
+    "name": "Vanilla Honey Cream (500ml)",
+    "slug": "vanilla-honey-cream-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "cream",
+      "honey",
+      "vanilla"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+      "/catalog-imports/beauty-2026/page-07-28cd3506dfaa.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 7
+    }
+  },
+  {
+    "id": "radiance-body-creme-argan-500ml",
+    "name": "Radiance Body Creme Argan (500ml)",
+    "slug": "radiance-body-creme-argan-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "argan",
+      "body",
+      "creme",
+      "radiance"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+      "/catalog-imports/beauty-2026/page-07-28cd3506dfaa.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 7
+    }
+  },
+  {
+    "id": "radiance-body-creme-oils-glycerine-500ml",
+    "name": "Radiance Body Creme (Oils & Glycerine) (500ml)",
+    "slug": "radiance-body-creme-oils-glycerine-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "body",
+      "creme",
+      "glycerine",
+      "oils",
+      "radiance"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+      "/catalog-imports/beauty-2026/page-07-28cd3506dfaa.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 7
+    }
+  },
+  {
+    "id": "berries-and-cream-500ml",
+    "name": "Berries and Cream (500ml)",
+    "slug": "berries-and-cream-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "and",
+      "berries",
+      "cream"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-07-3c1cb41623c6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-6ddba41b7d88.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3db7f5136bf6.jpeg",
+      "/catalog-imports/beauty-2026/page-07-ccc93c856ef3.jpeg",
+      "/catalog-imports/beauty-2026/page-07-3e88ba6bc324.jpeg",
+      "/catalog-imports/beauty-2026/page-07-28cd3506dfaa.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 7
+    }
+  },
+  {
+    "id": "clere-vanilla-honey-400ml",
+    "name": "Clere Vanilla Honey (400ml)",
+    "slug": "clere-vanilla-honey-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "clere",
+      "honey",
+      "vanilla"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "clere-tropical-coconut-400ml",
+    "name": "Clere Tropical Coconut (400ml)",
+    "slug": "clere-tropical-coconut-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "clere",
+      "coconut",
+      "tropical"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "radiance-body-lotion-oils-glycerine-400ml",
+    "name": "Radiance Body Lotion (oils & Glycerine) (400ml)",
+    "slug": "radiance-body-lotion-oils-glycerine-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "body",
+      "glycerine",
+      "lotion",
+      "oils",
+      "radiance"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "clere-cocoa-butter-400ml",
+    "name": "Clere Cocoa Butter (400ml)",
+    "slug": "clere-cocoa-butter-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "butter",
+      "clere",
+      "cocoa"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "radiance-argan-oil-body-lotion-400ml",
+    "name": "Radiance Argan Oil Body Lotion (400ml)",
+    "slug": "radiance-argan-oil-body-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "argan",
+      "body",
+      "lotion",
+      "oil",
+      "radiance"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "clere-berries-and-cream-400ml-clere",
+    "name": "Clere Berries and Cream (400ml) Clere",
+    "slug": "clere-berries-and-cream-400ml-clere",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "and",
+      "berries",
+      "clere",
+      "cream"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-08-0e770bd9f4cd.jpeg",
+      "/catalog-imports/beauty-2026/page-08-039a438f9605.jpeg",
+      "/catalog-imports/beauty-2026/page-08-580e9a877fb2.jpeg",
+      "/catalog-imports/beauty-2026/page-08-cffc2abce6ab.jpeg",
+      "/catalog-imports/beauty-2026/page-08-4910786d45a9.jpeg",
+      "/catalog-imports/beauty-2026/page-08-3e3e9eef4759.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 8
+    }
+  },
+  {
+    "id": "storm-lotion-400ml",
+    "name": "Storm Lotion (400ml)",
+    "slug": "storm-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "lotion",
+      "storm"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "fire-lotion-400ml",
+    "name": "Fire Lotion (400ml)",
+    "slug": "fire-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "fire",
+      "lotion"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "legend-lotion-400ml",
+    "name": "Legend Lotion (400ml)",
+    "slug": "legend-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "legend",
+      "lotion"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "smooth-lotion-400ml",
+    "name": "Smooth Lotion (400ml)",
+    "slug": "smooth-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "lotion",
+      "smooth"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "active-hydro-400ml",
+    "name": "Active Hydro (400ml)",
+    "slug": "active-hydro-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "active",
+      "hydro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "ice-lotion-400ml",
+    "name": "Ice Lotion (400ml)",
+    "slug": "ice-lotion-400ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "ice",
+      "lotion"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-09-6c572119bbc7.jpeg",
+      "/catalog-imports/beauty-2026/page-09-24261933c66b.jpeg",
+      "/catalog-imports/beauty-2026/page-09-a26eeba83d45.jpeg",
+      "/catalog-imports/beauty-2026/page-09-1883eda62145.jpeg",
+      "/catalog-imports/beauty-2026/page-09-b79dd82a243e.jpeg",
+      "/catalog-imports/beauty-2026/page-09-493bb8e43008.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 9
+    }
+  },
+  {
+    "id": "cocoa-butter-400ml-60ml",
+    "name": "Cocoa Butter (400ml + 60ml)",
+    "slug": "cocoa-butter-400ml-60ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "60ml",
+      "butter",
+      "cocoa"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-10-e2f4bbcd83dd.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-10-e2f4bbcd83dd.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 10
+    }
+  },
+  {
+    "id": "lanolin-glycerine-400ml-60ml",
+    "name": "Lanolin & Glycerine (400ml + 60ml)",
+    "slug": "lanolin-glycerine-400ml-60ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "400ml",
+      "60ml",
+      "glycerine",
+      "lanolin"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-10-e2f4bbcd83dd.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-10-e2f4bbcd83dd.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 10
+    }
+  },
+  {
+    "id": "clere-pure-glycerine-100ml",
+    "name": "Clere Pure Glycerine (100ml)",
+    "slug": "clere-pure-glycerine-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "clere",
+      "glycerine",
+      "pure"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-11-1cee6b92a8ee.png",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-11-1cee6b92a8ee.png",
+      "/catalog-imports/beauty-2026/page-11-84ffd2d9442a.png",
+      "/catalog-imports/beauty-2026/page-11-1aa1f41317d9.jpeg",
+      "/catalog-imports/beauty-2026/page-11-c5ae046c3f5d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 11
+    }
+  },
+  {
+    "id": "clere-gly-co-oil-100ml",
+    "name": "Clere Gly-Co-Oil (100ml)",
+    "slug": "clere-gly-co-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "clere",
+      "gly",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-11-84ffd2d9442a.png",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-11-1cee6b92a8ee.png",
+      "/catalog-imports/beauty-2026/page-11-84ffd2d9442a.png",
+      "/catalog-imports/beauty-2026/page-11-1aa1f41317d9.jpeg",
+      "/catalog-imports/beauty-2026/page-11-c5ae046c3f5d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 11
+    }
+  },
+  {
+    "id": "clere-tissue-oil-100ml",
+    "name": "Clere Tissue Oil (100ml)",
+    "slug": "clere-tissue-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "clere",
+      "oil",
+      "tissue"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-11-1aa1f41317d9.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-11-1cee6b92a8ee.png",
+      "/catalog-imports/beauty-2026/page-11-84ffd2d9442a.png",
+      "/catalog-imports/beauty-2026/page-11-1aa1f41317d9.jpeg",
+      "/catalog-imports/beauty-2026/page-11-c5ae046c3f5d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 11
+    }
+  },
+  {
+    "id": "clere-marula-oil-100ml",
+    "name": "Clere Marula Oil (100ml)",
+    "slug": "clere-marula-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "clere",
+      "marula",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-11-c5ae046c3f5d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-11-1cee6b92a8ee.png",
+      "/catalog-imports/beauty-2026/page-11-84ffd2d9442a.png",
+      "/catalog-imports/beauty-2026/page-11-1aa1f41317d9.jpeg",
+      "/catalog-imports/beauty-2026/page-11-c5ae046c3f5d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 11
+    }
+  },
+  {
+    "id": "clere-radiance-even-tone-tube-50ml",
+    "name": "Clere Radiance Even tone tube (50ml)",
+    "slug": "clere-radiance-even-tone-tube-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "clere",
+      "even",
+      "radiance",
+      "tone",
+      "tube"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-oil-control-vanishing-cream-50ml",
+    "name": "Clere Oil Control Vanishing Cream (50ml)",
+    "slug": "clere-oil-control-vanishing-cream-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "clere",
+      "control",
+      "cream",
+      "oil",
+      "vanishing"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-radiance-oil-control-bar-soap-100g",
+    "name": "Clere Radiance Oil Control Bar Soap (100g)",
+    "slug": "clere-radiance-oil-control-bar-soap-100g",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100g",
+      "bar",
+      "clere",
+      "control",
+      "oil",
+      "radiance",
+      "soap"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-radiance-beauty-soap-bar-100g",
+    "name": "Clere Radiance Beauty Soap Bar (100g)",
+    "slug": "clere-radiance-beauty-soap-bar-100g",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100g",
+      "bar",
+      "beauty",
+      "clere",
+      "radiance",
+      "soap"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-even-tone-toner-50ml",
+    "name": "Clere Even Tone Toner (50ml)",
+    "slug": "clere-even-tone-toner-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "clere",
+      "even",
+      "tone",
+      "toner"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-all-in-one-day-cream-50ml",
+    "name": "Clere All-in-One Day Cream(50ml)",
+    "slug": "clere-all-in-one-day-cream-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "all",
+      "clere",
+      "cream",
+      "day",
+      "one"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-night-re-newer-50ml",
+    "name": "Clere Night Re-Newer (50ml)",
+    "slug": "clere-night-re-newer-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "clere",
+      "newer",
+      "night"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "clere-face-wash-50ml-clere-radiance-face",
+    "name": "Clere Face Wash(50ml) Clere Radiance Face",
+    "slug": "clere-face-wash-50ml-clere-radiance-face",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "clere",
+      "face",
+      "radiance",
+      "wash"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-12-352d95fd2f48.jpeg",
+      "/catalog-imports/beauty-2026/page-12-e8c263886a4f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-9878bfb1efa1.jpeg",
+      "/catalog-imports/beauty-2026/page-12-d40794f8d823.jpeg",
+      "/catalog-imports/beauty-2026/page-12-691a25c8906c.jpeg",
+      "/catalog-imports/beauty-2026/page-12-72b25321ed91.jpeg",
+      "/catalog-imports/beauty-2026/page-12-0e1966648c6f.jpeg",
+      "/catalog-imports/beauty-2026/page-12-2805448b8e56.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 12
+    }
+  },
+  {
+    "id": "chiskop-hair-removal-cream-80g",
+    "name": "Chiskop Hair Removal Cream (80g)",
+    "slug": "chiskop-hair-removal-cream-80g",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "80g",
+      "chiskop",
+      "cream",
+      "hair",
+      "removal"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-13-6d5522db796a.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-13-6d5522db796a.jpeg",
+      "/catalog-imports/beauty-2026/page-13-bcf290f8cac0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 13
+    }
+  },
+  {
+    "id": "chiskop-soothing-balm-50g",
+    "name": "Chiskop Soothing Balm (50g)",
+    "slug": "chiskop-soothing-balm-50g",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50g",
+      "balm",
+      "chiskop",
+      "soothing"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-13-bcf290f8cac0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-13-6d5522db796a.jpeg",
+      "/catalog-imports/beauty-2026/page-13-bcf290f8cac0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 13
+    }
+  },
+  {
+    "id": "chiskop-soothing-balm-50g-chiskop",
+    "name": "Chiskop Soothing Balm (50g) Chiskop",
+    "slug": "chiskop-soothing-balm-50g-chiskop",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50g",
+      "balm",
+      "chiskop",
+      "soothing"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-13-bcf290f8cac0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-13-6d5522db796a.jpeg",
+      "/catalog-imports/beauty-2026/page-13-bcf290f8cac0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 13
+    }
+  },
+  {
+    "id": "perfect-love-100ml",
+    "name": "Perfect love (100ml)",
+    "slug": "perfect-love-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "love",
+      "perfect"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-14-f23d6bdbf4ec.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-14-f23d6bdbf4ec.jpeg",
+      "/catalog-imports/beauty-2026/page-14-8e27cab1d873.jpeg",
+      "/catalog-imports/beauty-2026/page-14-2a1a71f904c8.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 14
+    }
+  },
+  {
+    "id": "endless-love-100ml",
+    "name": "Endless Love (100ml )",
+    "slug": "endless-love-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "endless",
+      "love"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-14-8e27cab1d873.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-14-f23d6bdbf4ec.jpeg",
+      "/catalog-imports/beauty-2026/page-14-8e27cab1d873.jpeg",
+      "/catalog-imports/beauty-2026/page-14-2a1a71f904c8.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 14
+    }
+  },
+  {
+    "id": "eternal-love-100ml",
+    "name": "Eternal love (100ml)",
+    "slug": "eternal-love-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "eternal",
+      "love"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-14-2a1a71f904c8.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-14-f23d6bdbf4ec.jpeg",
+      "/catalog-imports/beauty-2026/page-14-8e27cab1d873.jpeg",
+      "/catalog-imports/beauty-2026/page-14-2a1a71f904c8.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 14
+    }
+  },
+  {
+    "id": "glosheen-gel-activator-blue-1l",
+    "name": "Glosheen Gel Activator-Blue ( 1L)",
+    "slug": "glosheen-gel-activator-blue-1l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "activator",
+      "blue",
+      "gel",
+      "glosheen"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+      "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 15
+    }
+  },
+  {
+    "id": "glosheen-gel-activator-blue-500ml",
+    "name": "Glosheen Gel Activator -Blue (500ml)",
+    "slug": "glosheen-gel-activator-blue-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "activator",
+      "blue",
+      "gel",
+      "glosheen"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+      "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 15
+    }
+  },
+  {
+    "id": "glosheen-gel-activator-white-1l",
+    "name": "Glosheen Gel Activator-White ( 1L)",
+    "slug": "glosheen-gel-activator-white-1l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "activator",
+      "gel",
+      "glosheen",
+      "white"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+      "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 15
+    }
+  },
+  {
+    "id": "glosheen-gel-activator-white-500ml",
+    "name": "Glosheen Gel Activator -White ( 500ml)",
+    "slug": "glosheen-gel-activator-white-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "activator",
+      "gel",
+      "glosheen",
+      "white"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+      "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 15
+    }
+  },
+  {
+    "id": "glosheen-gel-activator-black-1l",
+    "name": "Glosheen Gel Activator-Black ( 1L)",
+    "slug": "glosheen-gel-activator-black-1l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "activator",
+      "black",
+      "gel",
+      "glosheen"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-15-b9e0efbd6a1d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-4bc80f47613d.jpeg",
+      "/catalog-imports/beauty-2026/page-15-b0d2493a54bd.jpeg",
+      "/catalog-imports/beauty-2026/page-15-337a5ea533d2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 15
+    }
+  },
+  {
+    "id": "mythos-100ml",
+    "name": "Mythos (100ml)",
+    "slug": "mythos-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "mythos"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-16-962e8361cc4a.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-16-962e8361cc4a.jpeg",
+      "/catalog-imports/beauty-2026/page-16-edb4c04c4095.jpeg",
+      "/catalog-imports/beauty-2026/page-16-caed527a2626.jpeg",
+      "/catalog-imports/beauty-2026/page-16-420860e6dbb9.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 16
+    }
+  },
+  {
+    "id": "beverly-hills-100ml",
+    "name": "Beverly Hills (100ml)",
+    "slug": "beverly-hills-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "beverly",
+      "hills"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-16-edb4c04c4095.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-16-962e8361cc4a.jpeg",
+      "/catalog-imports/beauty-2026/page-16-edb4c04c4095.jpeg",
+      "/catalog-imports/beauty-2026/page-16-caed527a2626.jpeg",
+      "/catalog-imports/beauty-2026/page-16-420860e6dbb9.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 16
+    }
+  },
+  {
+    "id": "first-edition-100ml",
+    "name": "First edition (100ml)",
+    "slug": "first-edition-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "edition",
+      "first"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-16-caed527a2626.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-16-962e8361cc4a.jpeg",
+      "/catalog-imports/beauty-2026/page-16-edb4c04c4095.jpeg",
+      "/catalog-imports/beauty-2026/page-16-caed527a2626.jpeg",
+      "/catalog-imports/beauty-2026/page-16-420860e6dbb9.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 16
+    }
+  },
+  {
+    "id": "inferno-100ml",
+    "name": "Inferno (100ml)",
+    "slug": "inferno-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "inferno"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-16-420860e6dbb9.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-16-962e8361cc4a.jpeg",
+      "/catalog-imports/beauty-2026/page-16-edb4c04c4095.jpeg",
+      "/catalog-imports/beauty-2026/page-16-caed527a2626.jpeg",
+      "/catalog-imports/beauty-2026/page-16-420860e6dbb9.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 16
+    }
+  },
+  {
+    "id": "jabu-braiding-spray-250ml-jabu-stone",
+    "name": "Jabu Braiding Spray ( 250ml) Jabu Stone",
+    "slug": "jabu-braiding-spray-250ml-jabu-stone",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "braiding",
+      "jabu",
+      "spray",
+      "stone"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-17-944e5ccc2fc2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-17-944e5ccc2fc2.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 17
+    }
+  },
+  {
+    "id": "amla-oil-conditioner-1-litre",
+    "name": "Amla OIl Conditioner (1 Litre)",
+    "slug": "amla-oil-conditioner-1-litre",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "amla",
+      "conditioner",
+      "litre",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+      "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+      "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+      "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 18
+    }
+  },
+  {
+    "id": "amla-oil-shampoo-1l",
+    "name": "Amla OIl Shampoo (1L)",
+    "slug": "amla-oil-shampoo-1l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "amla",
+      "oil",
+      "shampoo"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+      "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+      "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+      "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 18
+    }
+  },
+  {
+    "id": "amla-oil-hair-food-100ml",
+    "name": "Amla OIl Hair Food (100ml)",
+    "slug": "amla-oil-hair-food-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "amla",
+      "food",
+      "hair",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+      "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+      "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+      "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 18
+    }
+  },
+  {
+    "id": "amla-green-oil-100ml",
+    "name": "Amla Green OIl (100ml)",
+    "slug": "amla-green-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "amla",
+      "green",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+      "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+      "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+      "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 18
+    }
+  },
+  {
+    "id": "amla-green-oil-350ml-mera-amla-oil",
+    "name": "Amla Green OIl (350ml) Mera Amla Oil",
+    "slug": "amla-green-oil-350ml-mera-amla-oil",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "350ml",
+      "amla",
+      "green",
+      "mera",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-18-0fed35e983fc.jpeg",
+      "/catalog-imports/beauty-2026/page-18-8dd4f549596f.jpeg",
+      "/catalog-imports/beauty-2026/page-18-eaff2b67e4f0.jpeg",
+      "/catalog-imports/beauty-2026/page-18-9f0326fe1c39.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 18
+    }
+  },
+  {
+    "id": "mpl-fermented-rice-water-250ml",
+    "name": "MPL fermented Rice Water (250ml)",
+    "slug": "mpl-fermented-rice-water-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "fermented",
+      "mpl",
+      "rice",
+      "water"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-19-fb44c3359108.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-19-fb44c3359108.jpeg",
+      "/catalog-imports/beauty-2026/page-19-91bfdebcf109.jpeg",
+      "/catalog-imports/beauty-2026/page-19-1dff02835696.jpeg",
+      "/catalog-imports/beauty-2026/page-19-c594a8ed402e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 19
+    }
+  },
+  {
+    "id": "mpl-castor-oil-100ml",
+    "name": "MPL Castor Oil (100ml)",
+    "slug": "mpl-castor-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "castor",
+      "mpl",
+      "oil"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-19-91bfdebcf109.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-19-fb44c3359108.jpeg",
+      "/catalog-imports/beauty-2026/page-19-91bfdebcf109.jpeg",
+      "/catalog-imports/beauty-2026/page-19-1dff02835696.jpeg",
+      "/catalog-imports/beauty-2026/page-19-c594a8ed402e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 19
+    }
+  },
+  {
+    "id": "mpl-charcoal-purifying-shampoo-250ml",
+    "name": "MPL Charcoal Purifying Shampoo (250ml)",
+    "slug": "mpl-charcoal-purifying-shampoo-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "charcoal",
+      "mpl",
+      "purifying",
+      "shampoo"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-19-1dff02835696.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-19-fb44c3359108.jpeg",
+      "/catalog-imports/beauty-2026/page-19-91bfdebcf109.jpeg",
+      "/catalog-imports/beauty-2026/page-19-1dff02835696.jpeg",
+      "/catalog-imports/beauty-2026/page-19-c594a8ed402e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 19
+    }
+  },
+  {
+    "id": "mpl-charcoal-purifying-conditioner-250ml-mpl",
+    "name": "MPL Charcoal Purifying Conditioner (250ml) MPL",
+    "slug": "mpl-charcoal-purifying-conditioner-250ml-mpl",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "charcoal",
+      "conditioner",
+      "mpl",
+      "purifying"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-19-c594a8ed402e.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-19-fb44c3359108.jpeg",
+      "/catalog-imports/beauty-2026/page-19-91bfdebcf109.jpeg",
+      "/catalog-imports/beauty-2026/page-19-1dff02835696.jpeg",
+      "/catalog-imports/beauty-2026/page-19-c594a8ed402e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 19
+    }
+  },
+  {
+    "id": "organico-treatment-sachet-pouch-100g",
+    "name": "organico Treatment Sachet(Pouch) (100g)",
+    "slug": "organico-treatment-sachet-pouch-100g",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100g",
+      "organico",
+      "pouch",
+      "sachet",
+      "treatment"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-20-c594a8ed402e.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-20-c594a8ed402e.jpeg",
+      "/catalog-imports/beauty-2026/page-20-7516ebeb6d8a.jpeg",
+      "/catalog-imports/beauty-2026/page-20-24dc61b27f45.jpeg",
+      "/catalog-imports/beauty-2026/page-20-3da41ece0e3e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 20
+    }
+  },
+  {
+    "id": "organico-treatment-bucket-2-5kg",
+    "name": "organico Treatment Bucket (2.5kg)",
+    "slug": "organico-treatment-bucket-2-5kg",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "5kg",
+      "bucket",
+      "organico",
+      "treatment"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-20-7516ebeb6d8a.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-20-c594a8ed402e.jpeg",
+      "/catalog-imports/beauty-2026/page-20-7516ebeb6d8a.jpeg",
+      "/catalog-imports/beauty-2026/page-20-24dc61b27f45.jpeg",
+      "/catalog-imports/beauty-2026/page-20-3da41ece0e3e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 20
+    }
+  },
+  {
+    "id": "organico-treatment-spray-250ml",
+    "name": "organico Treatment Spray (250ml)",
+    "slug": "organico-treatment-spray-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "organico",
+      "spray",
+      "treatment"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-20-24dc61b27f45.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-20-c594a8ed402e.jpeg",
+      "/catalog-imports/beauty-2026/page-20-7516ebeb6d8a.jpeg",
+      "/catalog-imports/beauty-2026/page-20-24dc61b27f45.jpeg",
+      "/catalog-imports/beauty-2026/page-20-3da41ece0e3e.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 20
+    }
+  },
+  {
+    "id": "ph-nitrous-energy-50ml",
+    "name": "PH Nitrous Energy (50ml)",
+    "slug": "ph-nitrous-energy-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "energy",
+      "nitrous"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-bronze-classic-50ml",
+    "name": "PH Bronze Classic (50ml)",
+    "slug": "ph-bronze-classic-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "bronze",
+      "classic"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-chrome-intense-50ml",
+    "name": "PH Chrome Intense (50ml)",
+    "slug": "ph-chrome-intense-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "chrome",
+      "intense"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-platinum-extreme-50ml",
+    "name": "PH Platinum Extreme (50ml)",
+    "slug": "ph-platinum-extreme-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "extreme",
+      "platinum"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-titanium-dry-50ml",
+    "name": "PH Titanium Dry(50ml)",
+    "slug": "ph-titanium-dry-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "dry",
+      "titanium"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-tungsten-strength-50ml",
+    "name": "PH Tungsten Strength(50ml)",
+    "slug": "ph-tungsten-strength-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "strength",
+      "tungsten"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-ruby-classic-50ml",
+    "name": "PH Ruby Classic(50ml)",
+    "slug": "ph-ruby-classic-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "classic",
+      "ruby"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-tanzanite-fresh-50ml",
+    "name": "PH Tanzanite Fresh(50ml)",
+    "slug": "ph-tanzanite-fresh-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "fresh",
+      "tanzanite"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-diamond-strength-50ml",
+    "name": "PH Diamond Strength(50ml)",
+    "slug": "ph-diamond-strength-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "diamond",
+      "strength"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-gold-rush-50ml",
+    "name": "PH Gold Rush(50ml)",
+    "slug": "ph-gold-rush-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "gold",
+      "rush"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "ph-invisible-dry-50ml",
+    "name": "PH Invisible Dry(50ml)",
+    "slug": "ph-invisible-dry-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "dry",
+      "invisible"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-21-3da41ece0e3e.jpeg",
+      "/catalog-imports/beauty-2026/page-21-f2f73167c7ae.jpeg",
+      "/catalog-imports/beauty-2026/page-21-1aa7f26980c9.jpeg",
+      "/catalog-imports/beauty-2026/page-21-4f2ce7eb3176.jpeg",
+      "/catalog-imports/beauty-2026/page-21-286d829738d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-6fa3ed262685.jpeg",
+      "/catalog-imports/beauty-2026/page-21-051eebe97cb2.jpeg",
+      "/catalog-imports/beauty-2026/page-21-e5dbd2af849f.jpeg",
+      "/catalog-imports/beauty-2026/page-21-ce2485c409d6.jpeg",
+      "/catalog-imports/beauty-2026/page-21-dd91df3b047b.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 21
+    }
+  },
+  {
+    "id": "pro-strength-regular-kit-250ml",
+    "name": "Pro Strength Regular Kit(250ml)",
+    "slug": "pro-strength-regular-kit-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "kit",
+      "pro",
+      "regular",
+      "strength"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-22-5be751b63c75.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-22-5be751b63c75.jpeg",
+      "/catalog-imports/beauty-2026/page-22-1d3e64dbcf13.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 22
+    }
+  },
+  {
+    "id": "perfect-kit-salon-pack",
+    "name": "Perfect Kit Salon Pack",
+    "slug": "perfect-kit-salon-pack",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "kit",
+      "pack",
+      "perfect",
+      "salon"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-22-1d3e64dbcf13.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-22-5be751b63c75.jpeg",
+      "/catalog-imports/beauty-2026/page-22-1d3e64dbcf13.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 22
+    }
+  },
+  {
+    "id": "snf-relaxer-shampoo-450ml",
+    "name": "SNF Relaxer/shampoo (450ml)",
+    "slug": "snf-relaxer-shampoo-450ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "450ml",
+      "relaxer",
+      "shampoo",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-cream-relaxer-5l",
+    "name": "SNF Cream Relaxer (5L)",
+    "slug": "snf-cream-relaxer-5l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "cream",
+      "relaxer",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-cream-relaxer-2-5l",
+    "name": "SNF Cream Relaxer (2.5L)",
+    "slug": "snf-cream-relaxer-2-5l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "cream",
+      "relaxer",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-2in1-curl-lotion-750ml",
+    "name": "SNF 2in1 curl lotion (750ml)",
+    "slug": "snf-2in1-curl-lotion-750ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "2in1",
+      "750ml",
+      "curl",
+      "lotion",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-2in1-curl-lotion-250ml",
+    "name": "SNF 2in1 curl lotion (250ml)",
+    "slug": "snf-2in1-curl-lotion-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "2in1",
+      "curl",
+      "lotion",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-black-castor-mouse-250ml",
+    "name": "SNF black Castor Mouse (250ml)",
+    "slug": "snf-black-castor-mouse-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "black",
+      "castor",
+      "mouse",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-stylin-gel-250ml",
+    "name": "SNF Stylin Gel (250ml)",
+    "slug": "snf-stylin-gel-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "gel",
+      "snf",
+      "stylin"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-oil-moisturiser-1l",
+    "name": "SNF Oil Moisturiser (1L)",
+    "slug": "snf-oil-moisturiser-1l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "moisturiser",
+      "oil",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-neutralising-shampoo-1l-sofnfree-range",
+    "name": "SNF Neutralising Shampoo (1L) Sofnfree Range",
+    "slug": "snf-neutralising-shampoo-1l-sofnfree-range",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "neutralising",
+      "range",
+      "shampoo",
+      "snf",
+      "sofnfree"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-23-5dae1c1d1f13.jpeg",
+      "/catalog-imports/beauty-2026/page-23-033be33ff72f.jpeg",
+      "/catalog-imports/beauty-2026/page-23-854f1451312b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-1f1d30cfbb94.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2d1b037c7762.jpeg",
+      "/catalog-imports/beauty-2026/page-23-2e86b32b875d.jpeg",
+      "/catalog-imports/beauty-2026/page-23-77607e50b18b.jpeg",
+      "/catalog-imports/beauty-2026/page-23-6d8f4c4f7445.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 23
+    }
+  },
+  {
+    "id": "snf-gly-fusion-gylcerine-vitamin-e-oil-100ml",
+    "name": "SNF Gly -Fusion Gylcerine & Vitamin E Oil(100ml)",
+    "slug": "snf-gly-fusion-gylcerine-vitamin-e-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "fusion",
+      "gly",
+      "gylcerine",
+      "oil",
+      "snf",
+      "vitamin"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-24-f15ee5222f29.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-24-f15ee5222f29.jpeg",
+      "/catalog-imports/beauty-2026/page-24-cc2cd8041e81.jpeg",
+      "/catalog-imports/beauty-2026/page-24-0db6cbd381d0.jpeg",
+      "/catalog-imports/beauty-2026/page-24-b8bae939fb0c.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 24
+    }
+  },
+  {
+    "id": "snf-gly-fusion-gylcerine-batana-oil-100ml",
+    "name": "SNF Gly -Fusion Gylcerine & Batana Oil (100ml)",
+    "slug": "snf-gly-fusion-gylcerine-batana-oil-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "batana",
+      "fusion",
+      "gly",
+      "gylcerine",
+      "oil",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-24-cc2cd8041e81.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-24-f15ee5222f29.jpeg",
+      "/catalog-imports/beauty-2026/page-24-cc2cd8041e81.jpeg",
+      "/catalog-imports/beauty-2026/page-24-0db6cbd381d0.jpeg",
+      "/catalog-imports/beauty-2026/page-24-b8bae939fb0c.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 24
+    }
+  },
+  {
+    "id": "snf-gly-fusion-gylcerine-prickly-pear-extract-100ml",
+    "name": "SNF Gly -Fusion Gylcerine & Prickly Pear Extract (100ml)",
+    "slug": "snf-gly-fusion-gylcerine-prickly-pear-extract-100ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "extract",
+      "fusion",
+      "gly",
+      "gylcerine",
+      "pear",
+      "prickly",
+      "snf"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-24-0db6cbd381d0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-24-f15ee5222f29.jpeg",
+      "/catalog-imports/beauty-2026/page-24-cc2cd8041e81.jpeg",
+      "/catalog-imports/beauty-2026/page-24-0db6cbd381d0.jpeg",
+      "/catalog-imports/beauty-2026/page-24-b8bae939fb0c.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 24
+    }
+  },
+  {
+    "id": "snf-gly-fusion-gylcerine-rosemary-oil-100ml-sofnfree",
+    "name": "SNF Gly -Fusion Gylcerine & Rosemary Oil (100ml) Sofnfree",
+    "slug": "snf-gly-fusion-gylcerine-rosemary-oil-100ml-sofnfree",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "100ml",
+      "fusion",
+      "gly",
+      "gylcerine",
+      "oil",
+      "rosemary",
+      "snf",
+      "sofnfree"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-24-b8bae939fb0c.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-24-f15ee5222f29.jpeg",
+      "/catalog-imports/beauty-2026/page-24-cc2cd8041e81.jpeg",
+      "/catalog-imports/beauty-2026/page-24-0db6cbd381d0.jpeg",
+      "/catalog-imports/beauty-2026/page-24-b8bae939fb0c.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 24
+    }
+  },
+  {
+    "id": "dredz-moisture-splash-350ml",
+    "name": "Dredz Moisture Splash (350ml)",
+    "slug": "dredz-moisture-splash-350ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "350ml",
+      "dredz",
+      "moisture",
+      "splash"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "dredz-oil-moisturiser-spray-350ml",
+    "name": "Dredz oil moisturiser spray (350ml)",
+    "slug": "dredz-oil-moisturiser-spray-350ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "350ml",
+      "dredz",
+      "moisturiser",
+      "oil",
+      "spray"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "dredz-shampoo-spray-350ml",
+    "name": "Dredz Shampoo Spray (350ml)",
+    "slug": "dredz-shampoo-spray-350ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "350ml",
+      "dredz",
+      "shampoo",
+      "spray"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "dredz-mouldin-gel-wax-125ml",
+    "name": "Dredz Mouldin Gel Wax (125ml)",
+    "slug": "dredz-mouldin-gel-wax-125ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "125ml",
+      "dredz",
+      "gel",
+      "mouldin",
+      "wax"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "dredz-edge-control-250ml",
+    "name": "Dredz Edge Control (250ml)",
+    "slug": "dredz-edge-control-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "control",
+      "dredz",
+      "edge"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "dredz-mouldin-gel-wax-500ml",
+    "name": "Dredz Mouldin Gel Wax (500ml)",
+    "slug": "dredz-mouldin-gel-wax-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "dredz",
+      "gel",
+      "mouldin",
+      "wax"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-25-17bdd8d16e1f.jpeg",
+      "/catalog-imports/beauty-2026/page-25-a050ea249e2c.jpeg",
+      "/catalog-imports/beauty-2026/page-25-5fd901453c28.jpeg",
+      "/catalog-imports/beauty-2026/page-25-8bebe226ef39.jpeg",
+      "/catalog-imports/beauty-2026/page-25-6e66e54aff8d.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 25
+    }
+  },
+  {
+    "id": "stasoffro-cocoa-butter-lotion-500ml",
+    "name": "Stasoffro Cocoa Butter Lotion (500ml)",
+    "slug": "stasoffro-cocoa-butter-lotion-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "butter",
+      "cocoa",
+      "lotion",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-comb-out-250ml",
+    "name": "Stasoffro Comb Out (250ml)",
+    "slug": "stasoffro-comb-out-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "comb",
+      "out",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-texturiser-kit-shampoo-150ml",
+    "name": "Stasoffro texturiser kit + shampoo (150ml)",
+    "slug": "stasoffro-texturiser-kit-shampoo-150ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "150ml",
+      "kit",
+      "shampoo",
+      "stasoffro",
+      "texturiser"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-special-blend-250ml",
+    "name": "Stasoffro Special Blend (250ml )",
+    "slug": "stasoffro-special-blend-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "blend",
+      "special",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-blow-out-125ml",
+    "name": "Stasoffro Blow Out (125ml)",
+    "slug": "stasoffro-blow-out-125ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "125ml",
+      "blow",
+      "out",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-blow-out-250ml",
+    "name": "Stasoffro Blow Out (250ml)",
+    "slug": "stasoffro-blow-out-250ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "250ml",
+      "blow",
+      "out",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-blow-out-bucket-size-2l-5l",
+    "name": "Stasoffro Blow Out Bucket Size (2L & 5L)",
+    "slug": "stasoffro-blow-out-bucket-size-2l-5l",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "blow",
+      "bucket",
+      "out",
+      "size",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-blow-out-500ml",
+    "name": "Stasoffro Blow Out (500ml)",
+    "slug": "stasoffro-blow-out-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "blow",
+      "out",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-cocoa-butter-hair-foods-150ml-sta-sof-fro",
+    "name": "Stasoffro Cocoa Butter Hair foods (150ML) Sta-sof-fro",
+    "slug": "stasoffro-cocoa-butter-hair-foods-150ml-sta-sof-fro",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "150ml",
+      "butter",
+      "cocoa",
+      "foods",
+      "fro",
+      "hair",
+      "sof",
+      "sta",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "stasoffro-comb-out-500ml",
+    "name": "Stasoffro Comb Out (500ml)",
+    "slug": "stasoffro-comb-out-500ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "comb",
+      "out",
+      "stasoffro"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-26-287174f9c163.jpeg",
+      "/catalog-imports/beauty-2026/page-26-6e66e54aff8d.jpeg",
+      "/catalog-imports/beauty-2026/page-26-48a7df519167.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e6461cae2adb.jpeg",
+      "/catalog-imports/beauty-2026/page-26-e2b1ae956d4b.jpeg",
+      "/catalog-imports/beauty-2026/page-26-b8711d6c49b0.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 26
+    }
+  },
+  {
+    "id": "top-society-roll-on-musk-50ml",
+    "name": "Top society Roll On -Musk ( 50ml)",
+    "slug": "top-society-roll-on-musk-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "musk",
+      "roll",
+      "society",
+      "top"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-27-40fb7afb60ca.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-27-40fb7afb60ca.jpeg",
+      "/catalog-imports/beauty-2026/page-27-88c0b0a22c55.jpeg",
+      "/catalog-imports/beauty-2026/page-27-4a828a4fdeef.jpeg",
+      "/catalog-imports/beauty-2026/page-27-8ef334b95634.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 27
+    }
+  },
+  {
+    "id": "top-society-roll-on-rose-50ml",
+    "name": "Top society Roll -on -Rose ( 50ml)",
+    "slug": "top-society-roll-on-rose-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "roll",
+      "rose",
+      "society",
+      "top"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-27-88c0b0a22c55.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-27-40fb7afb60ca.jpeg",
+      "/catalog-imports/beauty-2026/page-27-88c0b0a22c55.jpeg",
+      "/catalog-imports/beauty-2026/page-27-4a828a4fdeef.jpeg",
+      "/catalog-imports/beauty-2026/page-27-8ef334b95634.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 27
+    }
+  },
+  {
+    "id": "top-society-roll-on-fresh-50ml",
+    "name": "Top society Roll-on Fresh ( 50ml)",
+    "slug": "top-society-roll-on-fresh-50ml",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "50ml",
+      "fresh",
+      "roll",
+      "society",
+      "top"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-27-4a828a4fdeef.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-27-40fb7afb60ca.jpeg",
+      "/catalog-imports/beauty-2026/page-27-88c0b0a22c55.jpeg",
+      "/catalog-imports/beauty-2026/page-27-4a828a4fdeef.jpeg",
+      "/catalog-imports/beauty-2026/page-27-8ef334b95634.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 27
+    }
+  },
+  {
+    "id": "top-society-body-cream-cocoa-butter-500ml-top-society",
+    "name": "Top society Body Cream -Cocoa Butter (500ml) Top Society",
+    "slug": "top-society-body-cream-cocoa-butter-500ml-top-society",
+    "status": "active",
+    "tags": [
+      "catalog-2026",
+      "beauty-cosmetics"
+    ],
+    "searchKeywords": [
+      "500ml",
+      "body",
+      "butter",
+      "cocoa",
+      "cream",
+      "society",
+      "top"
+    ],
+    "isFeatured": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "customerRequestEnabled": true,
+    "beautyConcerns": [],
+    "pricingMethod": "supplier_confirmation_required",
+    "currency": "GHS",
+    "isCrueltyFree": false,
+    "isVegan": false,
+    "isOrganic": false,
+    "isDermatologicallyTested": false,
+    "isSuitableForSensitiveSkin": false,
+    "primaryImageURL": "/catalog-imports/beauty-2026/page-27-8ef334b95634.jpeg",
+    "stats": {
+      "assignedSupplierCount": 0,
+      "requestCount": 0,
+      "completedOrderCount": 0
+    },
+    "isDeleted": false,
+    "createdBy": "catalog-import-2026",
+    "imageCandidates": [
+      "/catalog-imports/beauty-2026/page-27-40fb7afb60ca.jpeg",
+      "/catalog-imports/beauty-2026/page-27-88c0b0a22c55.jpeg",
+      "/catalog-imports/beauty-2026/page-27-4a828a4fdeef.jpeg",
+      "/catalog-imports/beauty-2026/page-27-8ef334b95634.jpeg"
+    ],
+    "source": {
+      "pdf": "Beauty Cosmetics catalogue 2026 .pdf",
+      "page": 27
+    }
+  }
+]

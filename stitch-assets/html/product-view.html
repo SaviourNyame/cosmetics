@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lumière Beauty | Product Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#e2e2e2",
+                        "on-tertiary-fixed-variant": "#454747",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed": "#1a1c1c",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dcd9d9",
+                        "on-surface": "#1c1b1b",
+                        "on-background": "#1c1b1b",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#ebe7e7",
+                        "on-primary-fixed": "#1a1c1c",
+                        "primary-container": "#ffffff",
+                        "background": "#fcf9f8",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed-variant": "#454747",
+                        "secondary-fixed-dim": "#c6c6c7",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-container": "#747676",
+                        "secondary": "#5d5f5f",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#616363",
+                        "primary": "#5d5f5f",
+                        "on-tertiary-container": "#757676",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "error-container": "#ffdad6",
+                        "outline": "#747878",
+                        "surface": "#fcf9f8",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "tertiary-fixed": "#e2e2e2",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#c6c6c7",
+                        "surface-bright": "#fcf9f8",
+                        "surface-container": "#f0edec",
+                        "outline-variant": "#c4c7c8",
+                        "on-surface-variant": "#444748",
+                        "primary-fixed-dim": "#c6c6c7",
+                        "on-tertiary-fixed": "#1a1c1c",
+                        "inverse-surface": "#313030",
+                        "primary-fixed": "#e2e2e2",
+                        "surface-tint": "#5d5f5f",
+                        "tertiary-container": "#ffffff",
+                        "secondary-container": "#dfe0e0",
+                        "on-primary-fixed-variant": "#454747",
+                        "tertiary": "#5d5f5f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "16px",
+                        "stack-lg": "48px",
+                        "gutter": "32px",
+                        "container-max": "1440px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "80px",
+                        "stack-sm": "8px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "label-caps": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                        "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: #FAFAFA;
+            color: #1C1B1B;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+        }
+
+        .reflection-sweep {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .reflection-sweep::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent 45%,
+                rgba(255, 255, 255, 0.3) 50%,
+                transparent 55%
+            );
+            transform: translateX(-100%);
+            transition: transform 0.6s ease-in-out;
+        }
+
+        .reflection-sweep:hover::after {
+            transform: translateX(100%);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            height: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0,0,0,0.05);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0,0,0,0.2);
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md overflow-x-hidden selection:bg-primary-container selection:text-primary">
+<!-- Top Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/60 dark:bg-surface/60 backdrop-blur-[30px] border-b border-white/30 dark:border-white/10 shadow-2xl h-20">
+<div class="flex justify-between items-center h-full px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-12">
+<a class="flex items-center" href="#">
+<img alt="Lumière Beauty" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnS40PhY8mNFJHEcTnPMZOaoItGTmMFjrGZli31B0AmniSS1GfQ8GpTuA3HMjCDqUKc1MFzAmLyrUdO12688GYNuUhV0qEWJHXucU6KItpkLDKdcfRG4a1vft2AHbLRtHbgWj2fkG_Qz_wmOtTzvPddJWF3k0jDWpEjhUYbKizRWHXWYR_rq7-63TeLRAjwINps3rVCcCwF9qJvMOJc8A1R3lJwq2-FVEpX-hecc4l--o0vg59RNYH0w"/>
+</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">HOME</a>
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1" href="#">SHOP</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">BRANDS</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">REQUEST</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="relative group hidden lg:block">
+<input class="bg-white/20 border border-white/30 rounded-full py-2 px-6 focus:outline-none focus:ring-2 focus:ring-primary/20 transition-all w-48 focus:w-64 backdrop-blur-md" placeholder="Search..." type="text"/>
+<span class="material-symbols-outlined absolute right-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+</div>
+<button class="material-symbols-outlined text-primary hover:scale-105 transition-all">shopping_bag</button>
+<button class="material-symbols-outlined text-primary hover:scale-105 transition-all">account_circle</button>
+</div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Editorial Product Display -->
+<section class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 min-h-[90vh] gap-0">
+<!-- Left: High-end Gallery -->
+<div class="md:col-span-7 bg-white relative overflow-hidden flex items-center justify-center p-gutter">
+<div class="w-full h-full max-h-[800px] glass-panel rounded-lg flex items-center justify-center p-12 group">
+<img class="w-full h-full object-contain drop-shadow-2xl transition-transform duration-700 group-hover:scale-105" data-alt="High-end luxury beauty product in a sculptural glass bottle, placed on a reflecting crystal surface. The background is soft and airy with ethereal light refraction and soft white glow. Minimalist composition with focus on the metallic and glass textures of the packaging, high editorial fashion aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWcZ1uFE_j5DP6o480K7m79JXGmOCZDBJrj5FzRt2_nVnxXua5eE7M7HGKVy7UWQI5-JXIKJTJlPk6v98BhrpKD6R4bOxWjjjplDQRo5x2q1FrNmKSrbMh2Z7dyAf2WEM6DSItOtdP-rln9XB4hUNfivlJpbLuu4GVQkjWwpqBOFCQCeSB9UIkh-tJf5UN2WFIfdc98rdaoEr3ZHs7W6Jyo80jQJvZt1sv4Fds4TwspRQbHwhAQXUypw"/>
+<!-- Floating Perspective Thumbnails -->
+<div class="absolute bottom-8 left-8 flex flex-col gap-4">
+<button class="w-16 h-16 glass-panel rounded-lg border-2 border-primary overflow-hidden hover:scale-110 transition-all">
+<img class="w-full h-full object-cover" data-alt="Macro close-up of a luxury beauty cream texture, showing soft swirls and a pearlescent finish, captured in soft white crystalline lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP8r-jSjpbD6dXCe3MB-l4HtvUy_j72-x4BRamhWU0aG6q2NyVpThEmtRwNQ5Q_zhhd8VU1okfABaaruVGfyonJoWM9KPpIDySdubn6wz5hAsw0rIV1mviXuxLX7LatBnbtGrjQZZromULebTqa7E7bQ1u5iGhAni_HKgleOcVuVteDCq9d-57KTQW85dWTyDsNv7--a2fuThrCIQj1jT3aC2EIpUtU6_tVTPbTihxv2EXTGG70Gl9PQ"/>
+</button>
+<button class="w-16 h-16 glass-panel rounded-lg overflow-hidden hover:scale-110 transition-all opacity-60 hover:opacity-100">
+<img class="w-full h-full object-cover" data-alt="The elegant chrome cap of a beauty product reflecting a soft minimalist interior, luxury metallic finish in bright daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBandySwSshmcWWfOpprDoECPRwyYBwUD4oWJTfXgls6XkovzG56YAiesJePBMEI3YmrMuHPxVrsDidad04jSdAc_bh0X85ugVEsdW2MHMiFZM8zwtJ-kbmR9zSf3SFJycxE6E2Nsh4z38KMCicd6nrVX4b0i4c_P7X-JP-6jMYIMHRlo4TvW4OdDXioOSMfvJfRf8KkDD33elAocojoMJBBRSXWzFF_Rq2sS3ZqMouNqC04dGr8NQ3eg"/>
+</button>
+<button class="w-16 h-16 glass-panel rounded-lg overflow-hidden hover:scale-110 transition-all opacity-60 hover:opacity-100">
+<img class="w-full h-full object-cover" data-alt="Minimalist product group shot of Lumiere Beauty line on a frosted glass shelf, airy light-mode aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu7M5vC2DQb71eytfcJ6breCAgLC7ISmLplzNCna4dsWawLI4jdVOWD08HtBXDHjxT2d_SHm8fisj_3WdIQ-tF99oShX-AvvqU1waFeoG827FulQ7BuJXe6glI5eneT_TIsik73EdWQ2Nczdv4txebPnllPaOhogHDYe7hrSHNn1REggtW0WHXMVTMR4pzxM1uQ6ynbOQuK2wrSe0_mp1UitwH1g920dH5qOkin4qx6pnd9aRTacPfhg"/>
+</button>
+</div>
+<!-- Ambient Decoration -->
+<div class="absolute top-12 right-12 text-primary/10 select-none pointer-events-none">
+<span class="font-display-lg text-[120px] leading-none italic">L</span>
+</div>
+</div>
+</div>
+<!-- Right: Product Info Section -->
+<div class="md:col-span-5 px-margin-mobile md:px-gutter py-stack-lg flex flex-col justify-center">
+<nav class="flex items-center gap-2 mb-stack-md">
+<span class="font-label-caps text-label-caps text-on-surface-variant">SHOP</span>
+<span class="material-symbols-outlined text-[10px] text-on-surface-variant">chevron_right</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">SKINCARE</span>
+<span class="material-symbols-outlined text-[10px] text-on-surface-variant">chevron_right</span>
+<span class="font-label-caps text-label-caps text-primary">ELIXIR</span>
+</nav>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-stack-sm">Crystalline Elixir</h1>
+<p class="font-label-caps text-label-caps tracking-[0.2em] text-on-surface-variant mb-gutter">ADVANCED SKIN REJUVENATION</p>
+<div class="flex items-center gap-4 mb-stack-lg">
+<span class="font-headline-md text-headline-md text-on-surface">$245.00</span>
+<span class="bg-surface-container px-3 py-1 rounded-full font-label-caps text-[10px] text-on-surface-variant">INSTOCK</span>
+</div>
+<!-- Marketplace Banner -->
+<div class="glass-panel p-6 mb-stack-lg border-primary/10 rounded-xl relative overflow-hidden group">
+<div class="flex gap-4 items-start relative z-10">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<p class="text-body-md text-on-surface-variant leading-relaxed">
+                            This product is available from multiple verified suppliers. Submit your request and the fastest available supplier will fulfill your order.
+                        </p>
+</div>
+<div class="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</div>
+<div class="flex flex-col gap-gutter">
+<!-- Actions -->
+<div class="flex gap-4">
+<button class="flex-1 bg-on-surface text-on-primary py-5 rounded-md font-label-caps text-label-caps tracking-widest reflection-sweep transition-all hover:scale-[1.02] active:scale-95">
+                            REQUEST FULFILLMENT
+                        </button>
+<button class="w-16 h-16 glass-panel rounded-md flex items-center justify-center hover:scale-105 transition-all text-on-surface">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+</div>
+<!-- Product Details Accordion -->
+<div class="border-t border-outline-variant/30 pt-gutter">
+<details class="group mb-stack-md" open="">
+<summary class="list-none flex justify-between items-center cursor-pointer">
+<h3 class="font-headline-md text-[20px] font-semibold text-on-surface">Description</h3>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="py-4 text-on-surface-variant font-body-md leading-relaxed">
+                                A revolutionary hybrid formula designed to illuminate the skin from within. Infused with diamond micro-particles and rare botanical extracts, the Crystalline Elixir provides weightless hydration and an immediate frosted-glass finish.
+                            </div>
+</details>
+<details class="group mb-stack-md">
+<summary class="list-none flex justify-between items-center cursor-pointer">
+<h3 class="font-headline-md text-[20px] font-semibold text-on-surface">Ingredients</h3>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="py-4 text-on-surface-variant font-body-md leading-relaxed">
+                                Hyaluronic Acid Complex, 24K White Gold, Diamond Dust, Fermented Pearl Extract, Squalane, Niacinamide, Pure Alpine Water.
+                            </div>
+</details>
+<details class="group">
+<summary class="list-none flex justify-between items-center cursor-pointer">
+<h3 class="font-headline-md text-[20px] font-semibold text-on-surface">Usage</h3>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+</summary>
+<div class="py-4 text-on-surface-variant font-body-md leading-relaxed">
+                                Apply 2-3 drops to cleansed skin before moisturizing. Gently press into the face and neck using upward motions. Can be mixed with foundation for an ethereal glow.
+                            </div>
+</details>
+</div>
+</div>
+</div>
+</section>
+<!-- Asymmetric Detail Section -->
+<section class="py-stack-lg bg-surface-container-low overflow-hidden">
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div class="order-2 md:order-1 relative">
+<div class="w-full aspect-[4/5] glass-panel rounded-lg overflow-hidden group">
+<img class="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-110" data-alt="Editorial close up of skin with ethereal light reflecting off its surface, showcasing a dewy, crystalline texture and radiant glow. The lighting is soft and airy, emphasizing purity and high-end skincare results." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2bElssJ1KGVgZ0VIXtb54Pqt9ksWnYSojQJtC9A0uci2sB654tWMcgBi6Jp3wi1NPOVlQEgshktzovkSW_eENBqCYfIhgMnFD4VUZ1XexKQuLYOi3jrQ5pyE110e7FswwCXcmoXn-SbxsMtunTy1sJ99fvcFkOngQ31LLEP7_GlQXj2CiE7CLhav1ZccGyksLgY5I9qSEJhBa8CMOGoRYMdFWng9ueKHJLlq6L_gq2Xt4TBimdC_AQA"/>
+<div class="absolute inset-0 bg-primary/10 mix-blend-overlay"></div>
+</div>
+</div>
+<div class="order-1 md:order-2 space-y-stack-md">
+<h2 class="font-display-lg text-headline-md italic">The Purity of Light.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+                        Science meets luxury in a bottle designed to redefine the boundaries of skincare. Every drop is a culmination of decades of research into light reflection and cellular renewal.
+                    </p>
+<div class="pt-stack-md">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 glass-panel rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">flare</span>
+</div>
+<span class="font-label-caps text-label-caps">RADIANCE BOOSTING</span>
+</div>
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 glass-panel rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">water_drop</span>
+</div>
+<span class="font-label-caps text-label-caps">DEEP HYDRATION</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Related Products: Horizontal Scroll -->
+<section class="py-24 max-w-container-max mx-auto px-margin-desktop">
+<div class="flex justify-between items-end mb-stack-lg">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Complementary Care</h2>
+<p class="text-on-surface-variant">Complete your lumiére ritual</p>
+</div>
+<div class="flex gap-2">
+<button class="w-12 h-12 glass-panel rounded-full flex items-center justify-center hover:bg-on-surface hover:text-white transition-all" id="prevBtn">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<button class="w-12 h-12 glass-panel rounded-full flex items-center justify-center hover:bg-on-surface hover:text-white transition-all" id="nextBtn">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="flex gap-gutter overflow-x-auto pb-12 custom-scrollbar scroll-smooth snap-x" id="productScroll">
+<!-- Card 1 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start glass-panel p-6 rounded-xl hover:scale-[1.03] transition-all duration-500 group relative">
+<div class="aspect-square bg-surface-container mb-6 rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A minimal white beauty product jar with a crystal lid, sitting in an airy studio with soft shadows. High-end cosmetic product photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-kxO2QSE5UYHW9jbf_c03gZY_kmQYk4sTQw57OL02CVZ2v32vnSAQCwMAUXot8daraRVo2uFllx92nXL9i2kXCdj0xtEU0lYL8HPox0WYqJC_UpZ6apAtxYe0zTk0BlS37V0TOJXVfa1gsXON7YV7PZAOiY0hv_ICHCHaAY9Iq7MfPvk6vXiulUQu4ee5Sm3BYKSHcyDIuZschSnkTdbsllu8rUs2ZRF-HcS1ZKsMU1_bd4kl1bOasg"/>
+<button class="absolute top-4 right-4 w-10 h-10 glass-panel rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+<span class="font-label-caps text-[10px] text-primary mb-2 block">CLEANSER</span>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Purity Balm</h3>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">$85.00</span>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start glass-panel p-6 rounded-xl hover:scale-[1.03] transition-all duration-500 group relative">
+<div class="aspect-square bg-surface-container mb-6 rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A sleek glass dropper bottle with a silver metallic finish, containing a clear luxury facial oil. Soft morning light creates beautiful refractions on a white surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHkxv234x7EDYoW8cQU77E58v8xsJZ9VdjaXrNZa9rrqSkyrbjdIJU9spjOKkdhssR2f_nVVciOVo_OOGvqx2pEecmK_EserY2FkSB99UcReBQcucNS4tqZ8qnkF4a-73ywWHT5XOPcLo--m3i5Jft3T6F9AsRaqNoBfLau4bmBGXG53rAX7w1_lobrBDXcLMssVS-cVM2Bm4jacrBj-8kCiSU03yEenqg5ZSotWKm185MlDx1iu5gzw"/>
+<button class="absolute top-4 right-4 w-10 h-10 glass-panel rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+<span class="font-label-caps text-[10px] text-primary mb-2 block">OIL</span>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Midnight Glow</h3>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">$120.00</span>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start glass-panel p-6 rounded-xl hover:scale-[1.03] transition-all duration-500 group relative">
+<div class="aspect-square bg-surface-container mb-6 rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Luxury eye cream in a small, minimalist crystal pot. Soft pastel aesthetic, high key lighting, premium editorial style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOHPrHue6aW0rldxQs2A6Wu7uW6qOIZA3mOVno5tdH0e6jl2rh5QgplGRuX90HxmnpFBBpWQCOGtxXPCswsuCRlJa4slw1t9UsWJqnT2rqrlv7YU4-uFQhrjvj8YxdJXmVGo8lXN9CVZP9oVW7oCHsh6GTGYls_EdlaJau7wF7as0n91qofeNy-22vmdTBe9lCyRWOTru6ADkskmozs5osAn4ISonocX18_wjIxpZ0OgQdxxYlWTD14Q"/>
+<button class="absolute top-4 right-4 w-10 h-10 glass-panel rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+<span class="font-label-caps text-[10px] text-primary mb-2 block">EYE CARE</span>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Lift &amp; Bright</h3>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">$110.00</span>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="min-w-[300px] md:min-w-[350px] snap-start glass-panel p-6 rounded-xl hover:scale-[1.03] transition-all duration-500 group relative">
+<div class="aspect-square bg-surface-container mb-6 rounded-lg overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A tall minimalist frosted glass bottle for a toner, with a simple black cap. Surrounded by clean white space and soft ethereal lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9ps40pEr0ogIrctFOB0Sgp3YSPhOVHnC2bFmRH8inZ71cJiUX67Qj1rTQLnFX0-f9nUaGCfsLBBEK3SwHXugEhj_H4Ym9Ee14bAUQHZDcgbIgGbtdvPykjKrhuyV1qYaJexuKlpBukI5a5--DvkzG0YxZZAuQkrnirKARKlfDg2BY3FSBdbEtII_lgTvuxHaKIVpp50Q1Dt1m3w_Qra0hp_gQNtf5DzFE2mMRhWB3Lq4_NFYhR1cGJw"/>
+<button class="absolute top-4 right-4 w-10 h-10 glass-panel rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+<span class="font-label-caps text-[10px] text-primary mb-2 block">TONER</span>
+<h3 class="font-headline-md text-[18px] text-on-surface mb-2">Essence Mist</h3>
+<div class="flex justify-between items-center">
+<span class="font-body-md text-on-surface-variant">$65.00</span>
+<div class="flex gap-0.5 text-primary">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[14px]">star</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low dark:bg-surface-dim w-full py-stack-lg border-t border-outline-variant mt-24">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto">
+<div class="md:col-span-1">
+<img alt="Lumière Beauty" class="h-8 w-auto mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnS40PhY8mNFJHEcTnPMZOaoItGTmMFjrGZli31B0AmniSS1GfQ8GpTuA3HMjCDqUKc1MFzAmLyrUdO12688GYNuUhV0qEWJHXucU6KItpkLDKdcfRG4a1vft2AHbLRtHbgWj2fkG_Qz_wmOtTzvPddJWF3k0jDWpEjhUYbKizRWHXWYR_rq7-63TeLRAjwINps3rVCcCwF9qJvMOJc8A1R3lJwq2-FVEpX-hecc4l--o0vg59RNYH0w"/>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                    Elevating beauty through the precision of light and the purity of science.
+                </p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary font-semibold">COMPANY</h4>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">About Us</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">Sustainability</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">Editorial</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary font-semibold">HELP CENTER</h4>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">Shipping</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">Returns</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-opacity underline-offset-4 hover:underline" href="#">Supplier Program</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="font-label-caps text-label-caps text-primary font-semibold">NEWSLETTER</h4>
+<div class="relative">
+<input class="w-full bg-transparent border-b border-outline-variant py-2 focus:outline-none focus:border-primary transition-all" placeholder="Email Address" type="email"/>
+<button class="absolute right-0 top-1/2 -translate-y-1/2 material-symbols-outlined">arrow_forward</button>
+</div>
+<p class="text-[12px] text-on-surface-variant/60 mt-4 italic">© 2024 Lumiére Beauty. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interactions for the product horizontal scroll
+        const scrollContainer = document.getElementById('productScroll');
+        const nextBtn = document.getElementById('nextBtn');
+        const prevBtn = document.getElementById('prevBtn');
+
+        nextBtn.addEventListener('click', () => {
+            scrollContainer.scrollBy({ left: 400, behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            scrollContainer.scrollBy({ left: -400, behavior: 'smooth' });
+        });
+
+        // Ambient interaction: subtle parallax on the hero image based on mouse movement
+        const galleryImage = document.querySelector('section img[data-alt*="High-end luxury beauty"]');
+        if(galleryImage) {
+            document.addEventListener('mousemove', (e) => {
+                const moveX = (e.clientX - window.innerWidth / 2) / 100;
+                const moveY = (e.clientY - window.innerHeight / 2) / 100;
+                galleryImage.style.transform = `translate(${moveX}px, ${moveY}px)`;
+            });
+        }
+    </script>
+</body></html>

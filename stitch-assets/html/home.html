@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lumière Beauty | Premium Luxury Cosmetics</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#e2e2e2",
+                        "on-tertiary-fixed-variant": "#454747",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed": "#1a1c1c",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#dcd9d9",
+                        "on-surface": "#1c1b1b",
+                        "on-background": "#1c1b1b",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#ebe7e7",
+                        "on-primary-fixed": "#1a1c1c",
+                        "primary-container": "#ffffff",
+                        "background": "#fcf9f8",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary-fixed-variant": "#454747",
+                        "secondary-fixed-dim": "#c6c6c7",
+                        "surface-container-low": "#f6f3f2",
+                        "on-primary-container": "#747676",
+                        "secondary": "#5d5f5f",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#616363",
+                        "primary": "#5d5f5f",
+                        "on-tertiary-container": "#757676",
+                        "tertiary-fixed-dim": "#c6c6c6",
+                        "error-container": "#ffdad6",
+                        "outline": "#747878",
+                        "surface": "#fcf9f8",
+                        "inverse-on-surface": "#f3f0ef",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "tertiary-fixed": "#e2e2e2",
+                        "on-error-container": "#93000a",
+                        "inverse-primary": "#c6c6c7",
+                        "surface-bright": "#fcf9f8",
+                        "surface-container": "#f0edec",
+                        "outline-variant": "#c4c7c8",
+                        "on-surface-variant": "#444748",
+                        "primary-fixed-dim": "#c6c6c7",
+                        "on-tertiary-fixed": "#1a1c1c",
+                        "inverse-surface": "#313030",
+                        "primary-fixed": "#e2e2e2",
+                        "surface-tint": "#5d5f5f",
+                        "tertiary-container": "#ffffff",
+                        "secondary-container": "#dfe0e0",
+                        "on-primary-fixed-variant": "#454747",
+                        "tertiary": "#5d5f5f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "16px",
+                        "stack-lg": "48px",
+                        "gutter": "32px",
+                        "container-max": "1440px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "80px",
+                        "stack-sm": "8px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "display-lg": ["Playfair Display"],
+                        "label-caps": ["Inter"],
+                        "headline-md": ["Playfair Display"],
+                        "display-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                        "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(30px);
+            -webkit-backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+        }
+        
+        .glass-effect-deep {
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .reflection-sweep {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .reflection-sweep::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -100%;
+            width: 100%;
+            height: 200%;
+            background: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0) 0%,
+                rgba(255, 255, 255, 0.4) 50%,
+                rgba(255, 255, 255, 0) 100%
+            );
+            transform: rotate(45deg);
+            transition: all 0.6s ease;
+        }
+
+        .reflection-sweep:hover::after {
+            left: 100%;
+        }
+
+        .parallax-section {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .step-line::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white/60 dark:bg-surface/60 backdrop-blur-[30px] border-b border-white/30 shadow-[0_20px_50px_rgba(0,0,0,0.04)] h-20 transition-all duration-300">
+<div class="flex justify-between items-center h-full px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-12">
+<a class="font-display-lg text-[24px] tracking-widest text-on-surface uppercase flex items-center gap-3" href="#">
+<img alt="Lumière Beauty" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnS40PhY8mNFJHEcTnPMZOaoItGTmMFjrGZli31B0AmniSS1GfQ8GpTuA3HMjCDqUKc1MFzAmLyrUdO12688GYNuUhV0qEWJHXucU6KItpkLDKdcfRG4a1vft2AHbLRtHbgWj2fkG_Qz_wmOtTzvPddJWF3k0jDWpEjhUYbKizRWHXWYR_rq7-63TeLRAjwINps3rVCcCwF9qJvMOJc8A1R3lJwq2-FVEpX-hecc4l--o0vg59RNYH0w"/>
+<span>Lumière</span>
+</a>
+<div class="hidden md:flex gap-8">
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1" href="#">Home</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Shop</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Brands</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Request</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center glass-effect-deep rounded-full px-4 py-2 border border-white/30">
+<span class="material-symbols-outlined text-secondary text-[20px]">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-48 placeholder:text-on-surface-variant" placeholder="Search brands..." type="text"/>
+</div>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">shopping_bag</button>
+<button class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors">account_circle</button>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center justify-center pt-20 overflow-hidden">
+<div class="absolute inset-0 z-0 scale-105 parallax-section" data-alt="A macro editorial shot of premium aesthetic liquid foundation droplets and luxury cream swirls. The lighting is ethereal and soft-focus, emphasizing high-end product textures with pearlescent reflections. The background is a gradient of soft beige and cream, creating an expensive, serene atmosphere typical of high-fashion beauty campaigns. Soft bokeh effects add depth and professional elegance." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAxhcCpn5JlR7WwQuVnLjxJFOdz0PRQRkH53x4KAMD_TMCBpjMTPXB8xRt2LD4N2vsci00csHXSDRiSruQy-P6y9eWxjDpIasG-0loSW6ZokTSH8md-wM2aLdgyjUnMQy9VByqWd7_XXL1ZleqiWGq1yckCYuwcaw-vuMK8NPb8vNbv91EuTMFe3HJR-Z1_3PLcM9SFJBBgyr2MhvVhVssdo0Ls1iS1e0N5PB8V1Mo7RHvmsP4GtW92qA')">
+</div>
+<div class="relative z-10 w-full max-w-4xl px-margin-mobile">
+<div class="glass-effect p-12 md:p-16 rounded-xl text-center flex flex-col items-center animate-float">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-on-surface mb-8 tracking-tight">
+                    Premium Beauty. <br/>
+<span class="italic font-light">Delivered by the Fastest Verified Supplier.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-10">
+                    Experience the pinnacle of skincare and cosmetic curation. We bridge the gap between global luxury brands and discerning professionals with unmatched speed.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="reflection-sweep px-10 py-4 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-widest hover:scale-105 transition-all duration-300">
+                        Shop Now
+                    </button>
+<button class="glass-effect px-10 py-4 font-label-caps text-label-caps uppercase tracking-widest hover:scale-105 transition-all duration-300 border border-white/50">
+                        Request Product
+                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Categories Bento Grid -->
+<section class="py-stack-lg px-margin-desktop max-w-container-max mx-auto">
+<div class="text-center mb-20">
+<h2 class="font-display-lg text-headline-md text-on-surface uppercase tracking-[0.2em] mb-4">Curated Collections</h2>
+<div class="w-24 h-[1px] bg-outline-variant mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Skincare -->
+<div class="md:col-span-8 group relative overflow-hidden h-[450px] rounded-xl glass-effect cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="A collection of luxury skincare bottles and crystal jars arranged on a reflective marble surface. Soft sunlight filters through a window, creating long shadows and highlighting the clean, glass packaging. The aesthetic is pure, minimal, and focused on laboratory-grade quality and high-end beauty rituals." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCHeC3gYpJV-l1TWrzjzfw5o0QRM1Cl7NIbSi3xLD2Sv6W-gAsQu3-0MlIrAVpPo0xmvTkRNBrnaaPrTpw5HVeF-bmLMfCPMtSTQUMPRIQ1y4d3_PREjmydEeb9M-qL_duZY3COvBOEzif8PRFW2LSsyywbbrQeA-2RYfohkesUNVgvdm-nCXt348ZvWgb1ltiwMftHj23AeIj7AAdAhbii9h_VZJeUq2Lp_c7S-wUjXR1yEaEXqvukcQ')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-10 left-10 glass-effect p-6 rounded-lg group-hover:translate-x-2 transition-transform">
+<h3 class="font-display-lg text-headline-md text-on-surface">Skincare</h3>
+<p class="font-body-md text-on-surface-variant">The Science of Radiance</p>
+</div>
+</div>
+<!-- Makeup -->
+<div class="md:col-span-4 group relative overflow-hidden h-[450px] rounded-xl glass-effect cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of premium makeup brushes and a high-end gold eyeshadow palette. The scene is lit with warm, cinematic lighting, emphasizing the vibrant pigments and metallic finishes. The focus is sharp on the textures of the powder and the softness of the bristles, conveying artistic luxury." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD4msyA2z3gdnRGI4nF7ZFZdWnMV_PpZQQ24wBS5nxITF2QU1R8a-0yVjOPeonicjAW6CDuBogfyhTHoFVifMoM294NaW4keBainLO536k-iBOQmeUSZK_stbRxMW0sp7C6E4DRDqEFCwZ8Bno5voXtLGWjPkc8XFchLy83Qdb8Rk9uNHANOu3OojUQ_3h0i9fNSuVjhD0JUxQ65BHzrjrIhnk7oivMWapVlZDNf1EUpL5zP_EVru8Twg')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-10 left-10 glass-effect p-6 rounded-lg group-hover:translate-x-2 transition-transform">
+<h3 class="font-display-lg text-headline-md text-on-surface">Makeup</h3>
+<p class="font-body-md text-on-surface-variant">Artistry Redefined</p>
+</div>
+</div>
+<!-- Haircare -->
+<div class="md:col-span-4 group relative overflow-hidden h-[450px] rounded-xl glass-effect cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Professional haircare serum in a minimalist glass dropper bottle. Liquid pearls and golden oils are captured in motion, suggesting deep nourishment and high-performance ingredients. The background is a clean, airy salon aesthetic with soft neutral tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuASkbIAlsQK_jNE_6HUnLHjLfwOAMq1YZMw6WBOMY1qoTJIWJvnaObEER4-GNpudXfojEt7F2O2s92u1_A07-g7d50qMToASbNeIJ2YBKw6qGvSZ2lsjPLSPsTufu1ADCXpioVMu5Kq0dWzvmD_wPIocRC9S3NVPBr_ppyVvVwP2c7r3oXWYu6gmYvZ9W-WMz1fSWGlFKTcTh5oyxmA5NcmqAqCFKIGN71Oz9R8PC7nYY0LJ3LUVhNZeQ')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-10 left-10 glass-effect p-6 rounded-lg group-hover:translate-x-2 transition-transform">
+<h3 class="font-display-lg text-headline-md text-on-surface">Haircare</h3>
+<p class="font-body-md text-on-surface-variant">Salon Perfection</p>
+</div>
+</div>
+<!-- Fragrances -->
+<div class="md:col-span-8 group relative overflow-hidden h-[450px] rounded-xl glass-effect cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="An array of sculptural fragrance bottles made of heavy faceted glass. They are placed in a futuristic crystal-lit room with soft lavender and silver tones. The scene evokes a sense of mystery, olfactory complexity, and timeless luxury. Light refracts through the bottles creating prismatic rainbows on the floor." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBdJNUxUN_PQeN_6g8OvFl6vanfcxV4frPXTgjqrNKvnnW8wxhSlQP_Rerp-1dA49BZNQWAmr3VgfvUE7UQQlM4s6gu_CqcfOOcNx3C1Qc2d4o64EwnXMxiwe0eyIeZOP10UsOk52UcGNiFeJDfDpk20AmgkfSKBdjgN9e3_pfmpNQA-5lemHH80Cf4jCSkrybdeztlN3ZEqxGJxqEkVPTff0lQOMEYnXEb7vEBYqlLDQeyhRYLTQExGQ')">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+<div class="absolute bottom-10 left-10 glass-effect p-6 rounded-lg group-hover:translate-x-2 transition-transform">
+<h3 class="font-display-lg text-headline-md text-on-surface">Fragrances</h3>
+<p class="font-body-md text-on-surface-variant">Olfactive Poetry</p>
+</div>
+</div>
+</div>
+</section>
+<!-- How It Works Timeline -->
+<section class="py-stack-lg bg-surface-container-low relative overflow-hidden">
+<div class="px-margin-desktop max-w-container-max mx-auto relative z-10">
+<div class="text-center mb-24">
+<h2 class="font-display-lg text-headline-md text-on-surface uppercase tracking-[0.2em] mb-4">Precision Fulfillment</h2>
+<p class="font-body-lg text-on-surface-variant">Our seamless 5-step matching ecosystem.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-5 gap-8 relative">
+<!-- Step 1 -->
+<div class="flex flex-col items-center text-center">
+<div class="glass-effect-deep w-20 h-20 rounded-full flex items-center justify-center mb-6 border-primary/20 transition-all hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">search_check</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary mb-2">Step 01</span>
+<h4 class="font-headline-md text-[20px] mb-3">Discovery</h4>
+<p class="text-sm text-on-surface-variant">Intelligent matching with verified supply sources.</p>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col items-center text-center">
+<div class="glass-effect-deep w-20 h-20 rounded-full flex items-center justify-center mb-6 border-primary/20 transition-all hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary mb-2">Step 02</span>
+<h4 class="font-headline-md text-[20px] mb-3">Verification</h4>
+<p class="text-sm text-on-surface-variant">Strict authentication of batch and origin data.</p>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col items-center text-center">
+<div class="glass-effect-deep w-20 h-20 rounded-full flex items-center justify-center mb-6 border-primary/20 transition-all hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">inventory_2</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary mb-2">Step 03</span>
+<h4 class="font-headline-md text-[20px] mb-3">Curation</h4>
+<p class="text-sm text-on-surface-variant">Customized batch selection for your specific needs.</p>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col items-center text-center">
+<div class="glass-effect-deep w-20 h-20 rounded-full flex items-center justify-center mb-6 border-primary/20 transition-all hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">electric_bolt</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary mb-2">Step 04</span>
+<h4 class="font-headline-md text-[20px] mb-3">Dispatch</h4>
+<p class="text-sm text-on-surface-variant">Ultra-fast priority logistics to your doorstep.</p>
+</div>
+<!-- Step 5 -->
+<div class="flex flex-col items-center text-center">
+<div class="glass-effect-deep w-20 h-20 rounded-full flex items-center justify-center mb-6 border-primary/20 transition-all hover:scale-110">
+<span class="material-symbols-outlined text-primary text-3xl">stars</span>
+</div>
+<span class="font-label-caps text-label-caps text-primary mb-2">Step 05</span>
+<h4 class="font-headline-md text-[20px] mb-3">Success</h4>
+<p class="text-sm text-on-surface-variant">Experience the results of premium beauty care.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Products Showcase -->
+<section class="py-stack-lg px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div>
+<h2 class="font-display-lg text-headline-md text-on-surface uppercase tracking-[0.2em] mb-4">Lumière Essentials</h2>
+<p class="font-body-lg text-on-surface-variant max-w-lg">Hand-selected for performance, purity, and uncompromising luxury.</p>
+</div>
+<a class="font-label-caps text-label-caps text-primary flex items-center gap-2 group" href="#">
+                View All Collection <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Product 1 -->
+<div class="group">
+<div class="glass-effect rounded-xl overflow-hidden mb-6 h-[400px] relative">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="A minimal white aesthetic bottle of luxury facial serum. The packaging is frosted glass with a matte black cap. It is positioned on a geometric stone pedestal in a bright, white-lit studio. The vibe is clinical yet extremely high-end." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA-y5P4ELfGPgpnXAhZ58SSJenXhVZGE0F4HiBlo-gpsb1e3cIIkbWHiYo6v_mtVyUyKVvWn_YV9R2f_6op7tqPRNXe68Zvzi6Ak1doN-Swc2iTR6FeERSL0GUtYT9DF7LN38Wft8m8RPoP5ePW99R_OFDhphZ3GEbu6PWSJihrAXLNjp7SkvfHqMklRMs6MVejV8oAUNMpDT2vbKoo_UU82kew328wzwC8magTQl_FpToxoZ8OKa0vng')">
+</div>
+<button class="absolute bottom-6 left-6 right-6 py-3 bg-primary/90 text-on-primary font-label-caps text-label-caps opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 backdrop-blur-sm">
+                        Quick Add
+                    </button>
+</div>
+<h4 class="font-headline-md text-[20px] mb-1">Crystalline Essence</h4>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-widest text-[10px] mb-2">Skincare / Serum</p>
+<p class="font-body-md font-semibold text-primary">$185.00</p>
+</div>
+<!-- Product 2 -->
+<div class="group">
+<div class="glass-effect rounded-xl overflow-hidden mb-6 h-[400px] relative">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Premium lipstick in a sleek chrome tube. The texture of the lipstick is a deep velvet red. It is artistically presented next to a smear of the product on a glass plate. High-contrast lighting highlights the metallic sheen of the container." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAGpMKbPcKQkXjEOrt7_2tVtqYU_9jT8f5RAWJ3JweJ9oyOq0lTH4tO10K_iXjPlwJNfapdyBBPpQIlCTp-qYOOYTscbbku9Es5l-0iXClhjXgcBvVZ1yvgq7LNuK9e0GIXSmrh-8ZMPnHnyu-FtzsgM9jLwPLlhkM2kSD6Jj13l1XZPaHyU3KKm-403JXpnwmEWzW_-D5gZ9idHmwVbEbbBzDRcoJbe9JZ9US5M2nk0gofK11cwcnIrA')">
+</div>
+<button class="absolute bottom-6 left-6 right-6 py-3 bg-primary/90 text-on-primary font-label-caps text-label-caps opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 backdrop-blur-sm">
+                        Quick Add
+                    </button>
+</div>
+<h4 class="font-headline-md text-[20px] mb-1">Velvet Crimson</h4>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-widest text-[10px] mb-2">Makeup / Lips</p>
+<p class="font-body-md font-semibold text-primary">$48.00</p>
+</div>
+<!-- Product 3 -->
+<div class="group">
+<div class="glass-effect rounded-xl overflow-hidden mb-6 h-[400px] relative">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="An elegant black and gold jar of luxury night cream. The product is surrounded by soft white flower petals, conveying natural ingredients and gentle care. The lighting is low-key and intimate, emphasizing nighttime luxury." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDH-muDcHhqYcI5wAsvpo4dMh6bpkIrL9XeZj5QHKzsDAxh6xo-7VerSLX2P1R_980x0IKajLy6eVZAf91_Y3owXArLFN3a_PJqZIuVr3-KaZI_2DYdyETaw827kSlLdAFYod_BfDf1TGT5YJWbQQykbHTioB2bi3yQv4q6SRjViJCf9Z0sXa2hbx4FTH4Vr0G9PVvfA7ZcdM0LeURhmf5oY27xOLWyK_MfFBafPTk29nXoxG7pWSq2vA')">
+</div>
+<button class="absolute bottom-6 left-6 right-6 py-3 bg-primary/90 text-on-primary font-label-caps text-label-caps opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 backdrop-blur-sm">
+                        Quick Add
+                    </button>
+</div>
+<h4 class="font-headline-md text-[20px] mb-1">Midnight Restoration</h4>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-widest text-[10px] mb-2">Skincare / Night</p>
+<p class="font-body-md font-semibold text-primary">$210.00</p>
+</div>
+<!-- Product 4 -->
+<div class="group">
+<div class="glass-effect rounded-xl overflow-hidden mb-6 h-[400px] relative">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" data-alt="Luxury hair oil in a tall amber glass bottle. The sun shines through the bottle, creating a warm golden glow. A few strands of healthy, glossy hair are artistically placed nearby. The atmosphere is warm, Mediterranean, and sophisticated." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDTaPYq3FqNM19KqNTkhmmy5NLleyNGJVLZ1iFdJF0dZ1P6TYfTXSW2AzO9ieogDWNba1loafbnGNcSp6m6nOK-uMGn3SHilboNZ-nNEYaxwDa70IxhwMAQ0MVupdF4UP2io0H-Rr28jceuLVz4vRZXPX6oV1wgyUvcDW3vtSCqEU_mBk-7U9utq58O7ZXlBPMqh4J0nPVcaHYxyVjK93oSAs4vWggrhilw4sirjYi5GJW9iBIRqzKQFA')">
+</div>
+<button class="absolute bottom-6 left-6 right-6 py-3 bg-primary/90 text-on-primary font-label-caps text-label-caps opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-300 backdrop-blur-sm">
+                        Quick Add
+                    </button>
+</div>
+<h4 class="font-headline-md text-[20px] mb-1">Aurelia Elixir</h4>
+<p class="text-on-surface-variant font-label-caps uppercase tracking-widest text-[10px] mb-2">Haircare / Treatment</p>
+<p class="font-body-md font-semibold text-primary">$95.00</p>
+</div>
+</div>
+</section>
+<!-- Verified Suppliers & Trust Metrics -->
+<section class="py-stack-lg bg-surface relative">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="glass-effect p-16 rounded-2xl flex flex-col lg:flex-row items-center gap-16">
+<div class="lg:w-1/2">
+<h2 class="font-display-lg text-headline-md text-on-surface uppercase tracking-[0.2em] mb-8">Verified Supplier Network</h2>
+<p class="font-body-lg text-on-surface-variant mb-10 leading-relaxed">
+                        We maintain a rigorous auditing process. Every supplier in our network is verified for authenticity, ethical sourcing, and logistics efficiency.
+                    </p>
+<div class="grid grid-cols-2 gap-8">
+<div>
+<span class="font-display-lg text-[40px] text-primary block mb-2">99.8%</span>
+<p class="font-label-caps text-label-caps uppercase text-on-surface-variant">Authenticity Rate</p>
+</div>
+<div>
+<span class="font-display-lg text-[40px] text-primary block mb-2">24hr</span>
+<p class="font-label-caps text-label-caps uppercase text-on-surface-variant">Global Dispatch</p>
+</div>
+<div>
+<span class="font-display-lg text-[40px] text-primary block mb-2">450+</span>
+<p class="font-label-caps text-label-caps uppercase text-on-surface-variant">Global Partners</p>
+</div>
+<div>
+<span class="font-display-lg text-[40px] text-primary block mb-2">100%</span>
+<p class="font-label-caps text-label-caps uppercase text-on-surface-variant">Secured Chain</p>
+</div>
+</div>
+</div>
+<div class="lg:w-1/2 grid grid-cols-2 gap-4">
+<div class="glass-effect-deep p-8 rounded-xl flex flex-col items-center gap-4 hover:bg-white transition-colors cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary">speed</span>
+<span class="font-label-caps text-label-caps">Fastest Delivery</span>
+</div>
+<div class="glass-effect-deep p-8 rounded-xl flex flex-col items-center gap-4 hover:bg-white transition-colors cursor-default translate-y-8">
+<span class="material-symbols-outlined text-4xl text-primary">security</span>
+<span class="font-label-caps text-label-caps">Insured Shipments</span>
+</div>
+<div class="glass-effect-deep p-8 rounded-xl flex flex-col items-center gap-4 hover:bg-white transition-colors cursor-default">
+<span class="material-symbols-outlined text-4xl text-primary">biotech</span>
+<span class="font-label-caps text-label-caps">Lab Certified</span>
+</div>
+<div class="glass-effect-deep p-8 rounded-xl flex flex-col items-center gap-4 hover:bg-white transition-colors cursor-default translate-y-8">
+<span class="material-symbols-outlined text-4xl text-primary">eco</span>
+<span class="font-label-caps text-label-caps">Ethically Sourced</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-32 relative overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full opacity-20" style="background-image: radial-gradient(circle at 20% 50%, #5d5f5f 0%, transparent 40%), radial-gradient(circle at 80% 50%, #c6c6c7 0%, transparent 40%);"></div>
+</div>
+<div class="relative z-10 px-margin-desktop max-w-container-max mx-auto text-center">
+<h2 class="font-display-lg text-display-lg-mobile md:text-[56px] mb-10 tracking-tight">Elevate Your Standard of Beauty.</h2>
+<p class="font-body-lg text-on-surface-variant max-w-2xl mx-auto mb-12">
+                Join the exclusive circle of professionals and beauty enthusiasts who refuse to compromise on quality and speed.
+            </p>
+<button class="reflection-sweep px-16 py-6 bg-primary text-on-primary font-label-caps text-label-caps uppercase tracking-[0.2em] hover:scale-105 transition-all duration-300 shadow-xl">
+                Start Your Selection
+            </button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full py-stack-lg bg-surface-container-low dark:bg-surface-dim border-t border-outline-variant">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto">
+<div class="flex flex-col gap-6">
+<a class="font-display-lg text-headline-md text-on-surface" href="#">Lumière</a>
+<p class="font-body-md text-on-surface-variant max-w-xs">
+                    The world's premier platform for luxury beauty fulfillment and verified sourcing.
+                </p>
+<div class="flex gap-4">
+<a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="#">public</a>
+<a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="#">hub</a>
+<a class="material-symbols-outlined text-on-surface-variant hover:text-primary transition-colors" href="#">support_agent</a>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-caps text-label-caps text-primary font-semibold mb-2">Company</span>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">About Us</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Sustainability</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Careers</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Press</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="font-label-caps text-label-caps text-primary font-semibold mb-2">Help Center</span>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Shipping &amp; Returns</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Authenticity Guarantee</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Supplier Terms</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary underline-offset-4 hover:underline transition-all" href="#">Privacy Policy</a>
+</div>
+<div class="flex flex-col gap-6">
+<span class="font-label-caps text-label-caps text-primary font-semibold">Join Our Newsletter</span>
+<p class="font-body-md text-on-surface-variant">Exclusive drops and industry insights.</p>
+<div class="flex border-b border-outline py-2">
+<input class="bg-transparent border-none focus:ring-0 w-full placeholder:text-on-surface-variant" placeholder="Email Address" type="email"/>
+<button class="material-symbols-outlined text-primary">arrow_forward</button>
+</div>
+</div>
+</div>
+<div class="mt-20 pt-8 border-t border-outline-variant/30 px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="font-label-caps text-[10px] text-on-surface-variant uppercase tracking-widest">
+                © 2024 Lumière Beauty. All rights reserved.
+            </p>
+<div class="flex gap-8">
+<a class="font-label-caps text-[10px] text-on-surface-variant hover:text-primary transition-colors" href="#">Terms</a>
+<a class="font-label-caps text-[10px] text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy</a>
+<a class="font-label-caps text-[10px] text-on-surface-variant hover:text-primary transition-colors" href="#">Cookies</a>
+</div>
+</div>
+</footer>
+<script>
+        // Subtle scroll effects for glass components
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelectorAll('.parallax-section');
+            parallax.forEach(el => {
+                const speed = 0.5;
+                el.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+
+            const nav = document.querySelector('nav');
+            if (scrolled > 50) {
+                nav.classList.add('h-16');
+                nav.classList.add('bg-white/80');
+            } else {
+                nav.classList.remove('h-16');
+                nav.classList.remove('bg-white/80');
+            }
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section > div').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body></html>

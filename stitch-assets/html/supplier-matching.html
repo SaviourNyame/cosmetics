@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Lumière Beauty | Supplier Matching</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Playfair+Display:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-variant": "#e5e2e1",
+                    "secondary-fixed": "#e2e2e2",
+                    "on-tertiary-fixed-variant": "#454747",
+                    "error": "#ba1a1a",
+                    "on-secondary-fixed": "#1a1c1c",
+                    "on-primary": "#ffffff",
+                    "surface-dim": "#dcd9d9",
+                    "on-surface": "#1c1b1b",
+                    "on-background": "#1c1b1b",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-container-high": "#ebe7e7",
+                    "on-primary-fixed": "#1a1c1c",
+                    "primary-container": "#ffffff",
+                    "background": "#fcf9f8",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed-variant": "#454747",
+                    "secondary-fixed-dim": "#c6c6c7",
+                    "surface-container-low": "#f6f3f2",
+                    "on-primary-container": "#747676",
+                    "secondary": "#5d5f5f",
+                    "on-secondary": "#ffffff",
+                    "on-secondary-container": "#616363",
+                    "primary": "#5d5f5f",
+                    "on-tertiary-container": "#757676",
+                    "tertiary-fixed-dim": "#c6c6c6",
+                    "error-container": "#ffdad6",
+                    "outline": "#747878",
+                    "surface": "#fcf9f8",
+                    "inverse-on-surface": "#f3f0ef",
+                    "on-error": "#ffffff",
+                    "surface-container-highest": "#e5e2e1",
+                    "tertiary-fixed": "#e2e2e2",
+                    "on-error-container": "#93000a",
+                    "inverse-primary": "#c6c6c7",
+                    "surface-bright": "#fcf9f8",
+                    "surface-container": "#f0edec",
+                    "outline-variant": "#c4c7c8",
+                    "on-surface-variant": "#444748",
+                    "primary-fixed-dim": "#c6c6c7",
+                    "on-tertiary-fixed": "#1a1c1c",
+                    "inverse-surface": "#313030",
+                    "primary-fixed": "#e2e2e2",
+                    "surface-tint": "#5d5f5f",
+                    "tertiary-container": "#ffffff",
+                    "secondary-container": "#dfe0e0",
+                    "on-primary-fixed-variant": "#454747",
+                    "tertiary": "#5d5f5f"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "stack-md": "16px",
+                    "stack-lg": "48px",
+                    "gutter": "32px",
+                    "container-max": "1440px",
+                    "margin-mobile": "20px",
+                    "margin-desktop": "80px",
+                    "stack-sm": "8px"
+            },
+            "fontFamily": {
+                    "body-lg": ["Inter"],
+                    "display-lg": ["Playfair Display"],
+                    "label-caps": ["Inter"],
+                    "headline-md": ["Playfair Display"],
+                    "display-lg-mobile": ["Playfair Display"],
+                    "body-md": ["Inter"]
+            },
+            "fontSize": {
+                    "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                    "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.3", "letterSpacing": "0.02em", "fontWeight": "400"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(30px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.04);
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+
+        @keyframes pulse-ring {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            50% { transform: scale(1.2); opacity: 0.2; }
+            100% { transform: scale(0.8); opacity: 0.5; }
+        }
+
+        .pulse-layer {
+            animation: pulse-ring 4s ease-in-out infinite;
+        }
+
+        .progress-ring__circle {
+            transition: stroke-dashoffset 0.8s ease;
+            transform: rotate(-90deg);
+            transform-origin: 50% 50%;
+        }
+
+        .ping {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: #111;
+            border-radius: 50%;
+            filter: blur(1px);
+        }
+
+        .ping::after {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border: 1px solid rgba(17,17,17,0.4);
+            border-radius: 50%;
+            animation: ping-anim 1.5s ease-out infinite;
+        }
+
+        @keyframes ping-anim {
+            0% { transform: scale(1); opacity: 1; }
+            100% { transform: scale(3); opacity: 0; }
+        }
+
+        .network-grid {
+            background-image: radial-gradient(rgba(17,17,17,0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen overflow-hidden flex flex-col">
+<!-- Top Navigation (Shell Implementation) -->
+<header class="fixed top-0 left-0 w-full z-50 bg-white/60 dark:bg-surface/60 backdrop-blur-[30px] border-b border-white/30 shadow-[0_20px_50px_rgba(0,0,0,0.04)] h-20 px-margin-desktop max-w-container-max mx-auto flex justify-between items-center">
+<div class="flex items-center gap-4">
+<img alt="Lumière Beauty" class="h-10 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnS40PhY8mNFJHEcTnPMZOaoItGTmMFjrGZli31B0AmniSS1GfQ8GpTuA3HMjCDqUKc1MFzAmLyrUdO12688GYNuUhV0qEWJHXucU6KItpkLDKdcfRG4a1vft2AHbLRtHbgWj2fkG_Qz_wmOtTzvPddJWF3k0jDWpEjhUYbKizRWHXWYR_rq7-63TeLRAjwINps3rVCcCwF9qJvMOJc8A1R3lJwq2-FVEpX-hecc4l--o0vg59RNYH0w"/>
+<span class="font-display-lg text-[24px] tracking-widest text-on-surface uppercase">Lumière Beauty</span>
+</div>
+<nav class="hidden md:flex items-center gap-gutter">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Home</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Shop</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Brands</a>
+<a class="font-label-caps text-label-caps text-primary border-b-2 border-primary pb-1" href="#">Request</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-on-surface transition-colors duration-300" href="#">Account</a>
+</nav>
+<div class="flex items-center gap-stack-md">
+<button class="material-symbols-outlined text-on-surface p-2 hover:bg-white/10 transition-all rounded-full" data-icon="shopping_bag">shopping_bag</button>
+</div>
+</header>
+<!-- Main Content Area -->
+<main class="flex-grow pt-20 flex flex-row relative h-screen">
+<!-- Background Network Animation (Abstract) -->
+<div class="absolute inset-0 z-0 network-grid opacity-40"></div>
+<div class="absolute inset-0 z-0 pointer-events-none" id="pings-container">
+<!-- Dynamically generated pings via JS -->
+</div>
+<!-- Left Sidebar: Order Summary -->
+<aside class="hidden lg:flex flex-col w-[400px] z-10 p-stack-lg border-r border-outline-variant/20 bg-white/40 backdrop-blur-xl m-8 rounded-xl shadow-2xl">
+<div class="mb-stack-lg">
+<h2 class="font-display-lg text-headline-md mb-4">Request Summary</h2>
+<p class="font-label-caps text-label-caps text-on-surface-variant tracking-wider">REF: #LM-992841</p>
+</div>
+<div class="space-y-stack-md flex-grow">
+<div class="glass-panel p-stack-md rounded-lg flex items-center gap-4">
+<div class="w-16 h-16 rounded bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="High-end luxury serum bottle with a frosted glass finish, placed on a marble surface with soft, editorial lighting and a neutral color palette. Professional beauty photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUoDFh3z8wdpAqUiFWBXIIsw8TAL5AJdjiDrw8hZD2tM5q0eNd-ylxmrbUjII9FEaqXzAcYEWgDkOndrZNrXiwtjUz6fWTgO9t3deg2tu4fIC10ZFqM7PbQT6QhoYrMQYeF5poqOG0SH9bgO50xlYvj0650nnFzhUXCKbaEd4JH3sa5qyKNYapZKRUKMf118fepN7pDXXmT5iCluAYJf7B1GKLYJjKL3cuO5FpNzBo7SOgSIaqZBAXGQ"/>
+</div>
+<div>
+<p class="font-body-lg text-body-md font-semibold">Crystal Bloom Serum</p>
+<p class="text-on-surface-variant text-sm">Qty: 500 Units</p>
+</div>
+</div>
+<div class="glass-panel p-stack-md rounded-lg flex items-center gap-4">
+<div class="w-16 h-16 rounded bg-surface-container-high overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Minimalist white cream jar with a black lid, set against a soft beige background with elegant shadows. High-fashion cosmetic packaging photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTwRmiLDwu6DqvlzaBh2swkmpEHXaVVVK6NNHkY1iof4XJ7IscW7wqD2Um9mYhQzKCTCNZm36GE_l9d9XGP9op6sxsFwrkXyFV-zD2E5GaYUY1KAKa5_1FwOGXX9rb_kPg54WHE_EpuEmG82LFkoBzztdzunPlw6O8BaPdP6hjAYR4ORGcOPQoA15OayPnVTMmDPgqCtZ8VV-XlpU79riRckSXutxnQVMHO8a5XeWSicTh_0Gtd7uKCw"/>
+</div>
+<div>
+<p class="font-body-lg text-body-md font-semibold">Lumière Night Repair</p>
+<p class="text-on-surface-variant text-sm">Qty: 250 Units</p>
+</div>
+</div>
+</div>
+<div class="pt-stack-lg border-t border-outline-variant/30">
+<div class="flex justify-between mb-2">
+<span class="text-on-surface-variant">Estimated Value</span>
+<span class="font-semibold">$24,500.00</span>
+</div>
+<div class="flex justify-between">
+<span class="text-on-surface-variant">Matching Scope</span>
+<span class="font-semibold">Global Tier 1</span>
+</div>
+</div>
+</aside>
+<!-- Central Widget: Progress State -->
+<section class="flex-grow flex flex-col items-center justify-center z-10 p-margin-mobile">
+<div class="relative flex items-center justify-center">
+<!-- Pulse Backgrounds -->
+<div class="absolute w-[450px] h-[450px] bg-primary/5 rounded-full pulse-layer"></div>
+<div class="absolute w-[600px] h-[600px] bg-primary/2 rounded-full pulse-layer" style="animation-delay: 2s;"></div>
+<!-- Main Progress Glass Circle -->
+<div class="glass-panel w-80 h-80 md:w-96 md:h-96 rounded-full flex flex-col items-center justify-center relative overflow-hidden">
+<!-- SVG Progress Ring -->
+<svg class="absolute inset-0 w-full h-full p-4" viewbox="0 0 100 100">
+<circle class="stroke-surface-container-highest" cx="50" cy="50" fill="transparent" r="45" stroke-width="2"></circle>
+<circle class="progress-ring__circle stroke-primary" cx="50" cy="50" fill="transparent" id="progress-ring" r="45" stroke-dasharray="282.7" stroke-dashoffset="282.7" stroke-linecap="round" stroke-width="2"></circle>
+</svg>
+<div class="text-center z-10 px-8">
+<p class="font-label-caps text-label-caps text-primary tracking-[0.2em] mb-2 transition-all duration-500" id="status-label">REQUEST RECEIVED</p>
+<h1 class="font-display-lg text-headline-md leading-tight mb-4 transition-all duration-500" id="status-title">Processing Your Request</h1>
+<div class="flex justify-center">
+<span class="material-symbols-outlined text-secondary text-4xl animate-pulse" data-icon="sync">sync</span>
+</div>
+</div>
+<!-- Inner Gloss Sweep -->
+<div class="absolute top-[-100%] left-[-100%] w-[300%] h-[300%] bg-gradient-to-tr from-white/0 via-white/20 to-white/0 rotate-45 pointer-events-none transition-transform duration-[3s] linear animate-[sweep_4s_infinite]"></div>
+</div>
+</div>
+<!-- Status List (Desktop Visual Only) -->
+<div class="mt-stack-lg flex gap-gutter overflow-x-auto w-full max-w-2xl px-4 no-scrollbar">
+<div class="flex flex-col items-center gap-2 min-w-[120px] status-step opacity-100" id="step-0">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="font-label-caps text-[10px] text-on-surface">REQUEST RECEIVED</span>
+</div>
+<div class="flex flex-col items-center gap-2 min-w-[120px] status-step opacity-30" id="step-1">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<span class="font-label-caps text-[10px] text-on-surface-variant">SEARCHING</span>
+</div>
+<div class="flex flex-col items-center gap-2 min-w-[120px] status-step opacity-30" id="step-2">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<span class="font-label-caps text-[10px] text-on-surface-variant">NOTIFIED</span>
+</div>
+<div class="flex flex-col items-center gap-2 min-w-[120px] status-step opacity-30" id="step-3">
+<div class="w-2 h-2 rounded-full bg-outline-variant"></div>
+<span class="font-label-caps text-[10px] text-on-surface-variant">WAITING</span>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (Shell Implementation) -->
+<footer class="w-full py-stack-lg bg-surface-container-low dark:bg-surface-dim border-t border-outline-variant z-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1">
+<h3 class="font-display-lg text-headline-md text-on-surface dark:text-on-surface mb-4">Lumière</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Precision matching for the global beauty supply chain.</p>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps text-secondary mb-4">Company</h4>
+<ul class="space-y-2">
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline underline-offset-4 transition-all" href="#">About Us</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline underline-offset-4 transition-all" href="#">Supplier Program</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-label-caps text-label-caps text-secondary mb-4">Support</h4>
+<ul class="space-y-2">
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline underline-offset-4 transition-all" href="#">Help Center</a></li>
+<li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline underline-offset-4 transition-all" href="#">Contact Support</a></li>
+</ul>
+</div>
+<div class="flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant opacity-80">© 2024 Lumière Beauty. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script>
+        // Progress Logic
+        const statusSteps = [
+            { label: "REQUEST RECEIVED", title: "Validating Requirements", progress: 25 },
+            { label: "SEARCHING SUPPLIERS", title: "Scanning Global Network", progress: 50 },
+            { label: "SUPPLIERS NOTIFIED", title: "Broadcasting RFP", progress: 75 },
+            { label: "WAITING FOR ACCEPTANCE", title: "Confirming Logistics", progress: 95 }
+        ];
+
+        let currentStep = 0;
+        const ring = document.getElementById('progress-ring');
+        const statusLabel = document.getElementById('status-label');
+        const statusTitle = document.getElementById('status-title');
+        const circumference = 2 * Math.PI * 45;
+
+        function updateProgress() {
+            const step = statusSteps[currentStep];
+            const offset = circumference - (step.progress / 100 * circumference);
+            ring.style.strokeDashoffset = offset;
+            
+            // Text fade effect
+            statusLabel.style.opacity = '0';
+            statusTitle.style.opacity = '0';
+
+            setTimeout(() => {
+                statusLabel.textContent = step.label;
+                statusTitle.textContent = step.title;
+                statusLabel.style.opacity = '1';
+                statusTitle.style.opacity = '1';
+
+                // Update bottom visual steps
+                document.querySelectorAll('.status-step').forEach((el, idx) => {
+                    if(idx <= currentStep) {
+                        el.style.opacity = '1';
+                        el.querySelector('div').classList.add('bg-primary');
+                        el.querySelector('div').classList.remove('bg-outline-variant');
+                        el.querySelector('span').classList.replace('text-on-surface-variant', 'text-on-surface');
+                    }
+                });
+            }, 500);
+
+            currentStep = (currentStep + 1) % statusSteps.length;
+        }
+
+        // Random Pings Logic
+        const pingContainer = document.getElementById('pings-container');
+        function createPing() {
+            const ping = document.createElement('div');
+            ping.className = 'ping';
+            ping.style.left = Math.random() * 100 + '%';
+            ping.style.top = Math.random() * 100 + '%';
+            pingContainer.appendChild(ping);
+
+            setTimeout(() => {
+                ping.style.opacity = '0';
+                setTimeout(() => ping.remove(), 1000);
+            }, 2000);
+        }
+
+        // Initialize
+        updateProgress();
+        setInterval(updateProgress, 6000);
+        setInterval(createPing, 800);
+
+        // Visual Micro-interaction for Glass Panel
+        document.addEventListener('mousemove', (e) => {
+            const panels = document.querySelectorAll('.glass-panel');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            panels.forEach(panel => {
+                const rect = panel.getBoundingClientRect();
+                const dx = (e.clientX - (rect.left + rect.width / 2)) / 50;
+                const dy = (e.clientY - (rect.top + rect.height / 2)) / 50;
+                panel.style.transform = `translate(${dx}px, ${dy}px)`;
+            });
+        });
+    </script>
+</body></html>

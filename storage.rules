@@ -1,0 +1,80 @@
+rules_version = '2';
+
+// Unlike Firestore, Storage uploads happen directly from the client (drag
+// and drop with progress) via the shared FileUpload component, so these
+// paths need real write rules rather than "deny all + server actions".
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function role() {
+      return request.auth.token.role;
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (role() == 'admin' || role() == 'super_admin');
+    }
+
+    function isSupplier(supplierId) {
+      return isSignedIn() && role() == 'supplier' && request.auth.token.supplierId == supplierId;
+    }
+
+    function underUploadLimit() {
+      // Generous default cap; the exact figure is enforced again server-side
+      // from settings/platform.fileUploadMaxSizeMB before a document is
+      // marked verified.
+      return request.resource.size < 25 * 1024 * 1024;
+    }
+
+    // Supplier-owned documents (registration certs, tax certs, IDs, etc.)
+    match /supplier-documents/{supplierId}/{fileName} {
+      allow read: if isAdmin() || isSupplier(supplierId);
+      allow write: if (isAdmin() || isSupplier(supplierId)) && underUploadLimit();
+    }
+
+    match /supplier-representative-photos/{supplierId}/{fileName} {
+      allow read: if isAdmin() || isSupplier(supplierId);
+      allow write: if (isAdmin() || isSupplier(supplierId)) && underUploadLimit();
+    }
+
+    // Public catalogue media — admin-managed, publicly viewable
+    match /product-images/{productId}/{fileName} {
+      allow read: if true;
+      allow write: if isAdmin() && underUploadLimit();
+    }
+
+    match /product-videos/{productId}/{fileName} {
+      allow read: if true;
+      allow write: if isAdmin() && underUploadLimit();
+    }
+
+    match /brand-logos/{brandId}/{fileName} {
+      allow read: if true;
+      allow write: if isAdmin() && underUploadLimit();
+    }
+
+    match /category-images/{categoryId}/{fileName} {
+      allow read: if true;
+      allow write: if isAdmin() && underUploadLimit();
+    }
+
+    match /admin-avatars/{uid}/{fileName} {
+      allow read: if true;
+      allow write: if isAdmin() && request.auth.uid == uid && underUploadLimit();
+    }
+
+    // Delivery proof-of-pickup / proof-of-delivery photos
+    match /delivery-proofs/{orderId}/{fileName} {
+      allow read: if isAdmin();
+      allow write: if isAdmin() && underUploadLimit();
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
